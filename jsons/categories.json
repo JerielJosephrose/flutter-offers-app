@@ -1,0 +1,7780 @@
+[
+  {
+    "id": 1,
+    "id_parent_class": 0,
+    "label": "Offres d'emploi",
+    "channel": "offres_d_emploi",
+    "fields":[
+      {
+        "key": "poste",
+        "type": "Input",
+        "label": "Poste recherché",
+        "placeholder": "Poste recherché",
+        "required": true
+      },
+      {
+        "key": "experiences",
+        "type": "Input",
+        "label": "Description de vos expériences",
+        "placeholder": "Description de vos expériences",
+        "required": true
+      },
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description de l'annonce",
+        "placeholder": "Description",
+        "required": true
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Salaire",
+        "placeholder": "Salaire",
+        "required": true
+      }
+    ]
+
+  },
+  {
+    "id": 3,
+    "id_parent_class": 2,
+    "label": "Voitures",
+    "channel": "voitures",
+    "fields": [
+      {
+        "key": "marque",
+        "type": "Select",
+        "label": "marque",
+        "value": "Audi",
+        "items": [
+          {
+            "label": "Audi",
+            "value": "Audi"
+          },
+          {
+            "label": "Bmw",
+            "value": "Bmw"
+          },
+          {
+            "label": "Citroen",
+            "value": "Citroen"
+          },
+          {
+            "label": "Fiat",
+            "value": "Fiat"
+          },
+          {
+            "label": "Ford",
+            "value": "Ford"
+          },
+          {
+            "label": "Mercedes",
+            "value": "Mercedes"
+          },
+          {
+            "label": "Opel",
+            "value": "Opel"
+          },
+          {
+            "label": "Peugeot",
+            "value": "Peugeot"
+          },
+          {
+            "label": "Renault",
+            "value": "Renault"
+          },
+          {
+            "label": "Volkswagen",
+            "value": "Volkswagen"
+          },{
+            "label": "Abarth",
+            "value": "Abarth"
+          },
+          {
+            "label": "Aleko",
+            "value": "Aleko"
+          },
+          {
+            "label": "Alfa Romeo",
+            "value": "Alfa Romeo"
+          },
+          {
+            "label": "Alpina",
+            "value": "Alpina"
+          },
+          {
+            "label": "Aro",
+            "value": "Aro"
+          },
+          {
+            "label": "Artega",
+            "value": "Artega"
+          },
+          {
+            "label": "Aston Martin",
+            "value": "Aston Martin"
+          },
+          {
+            "label": "Autobianchi",
+            "value": "Autobianchi"
+          },
+          {
+            "label": "Auverland",
+            "value": "Auverland"
+          },
+          {
+            "label": "Bentley",
+            "value": "Bentley"
+          },
+          {
+            "label": "Bertone",
+            "value": "Bertone"
+          },
+          {
+            "label": "Bluecar Groupe Bollore",
+            "value": "Bluecar Groupe Bollore"
+          },
+          {
+            "label": "Buick",
+            "value": "Buick"
+          },
+          {
+            "label": "Cadillac",
+            "value": "Cadillac"
+          },
+          {
+            "label": "Chevrolet",
+            "value": "Chevrolet"
+          },
+          {
+            "label": "Chrysler",
+            "value": "Chrysler"
+          },
+          {
+            "label": "Corvette",
+            "value": "Corvette"
+          },
+          {
+            "label": "Dacia",
+            "value": "Dacia"
+          },
+          {
+            "label": "Daewoo",
+            "value": "Daewoo"
+          },
+          {
+            "label": "Daihatsu",
+            "value": "Daihatsu"
+          },
+          {
+            "label": "Dangel",
+            "value": "Dangel"
+          },
+          {
+            "label": "De La Chapelle",
+            "value": "De La Chapelle"
+          },
+          {
+            "label": "Dodge",
+            "value": "Dodge"
+          },
+          {
+            "label": "Donkervoort",
+            "value": "Donkervoort"
+          },
+          {
+            "label": "Dr",
+            "value": "Dr"
+          },
+          {
+            "label": "Ds",
+            "value": "Ds"
+          },
+          {
+            "label": "Ferrari",
+            "value": "Ferrari"
+          },
+          {
+            "label": "Fisker",
+            "value": "Fisker"
+          },
+          {
+            "label": "Gme",
+            "value": "Gme"
+          },
+          {
+            "label": "Honda",
+            "value": "Honda"
+          },
+          {
+            "label": "Hummer",
+            "value": "Hummer"
+          },
+          {
+            "label": "Hyundai",
+            "value": "Hyundai"
+          },
+          {
+            "label": "Infiniti",
+            "value": "Infiniti"
+          },
+          {
+            "label": "Innocenti",
+            "value": "Innocenti"
+          },
+          {
+            "label": "Isuzu",
+            "value": "Isuzu"
+          },
+          {
+            "label": "Iveco",
+            "value": "Iveco"
+          },
+          {
+            "label": "Jaguar",
+            "value": "Jaguar"
+          },
+          {
+            "label": "Jeep",
+            "value": "Jeep"
+          },
+          {
+            "label": "Kia",
+            "value": "Kia"
+          },
+          {
+            "label": "Lada",
+            "value": "Lada"
+          },
+          {
+            "label": "Lamborghini",
+            "value": "Lamborghini"
+          },
+          {
+            "label": "Lancia",
+            "value": "Lancia"
+          },
+          {
+            "label": "Land Rover",
+            "value": "Land Rover"
+          },
+          {
+            "label": "Lexus",
+            "value": "Lexus"
+          },
+          {
+            "label": "Lotus",
+            "value": "Lotus"
+          },
+          {
+            "label": "Mahindra",
+            "value": "Mahindra"
+          },
+          {
+            "label": "Maruti",
+            "value": "Maruti"
+          },
+          {
+            "label": "Maserati",
+            "value": "Maserati"
+          },
+          {
+            "label": "Mastretta",
+            "value": "Mastretta"
+          },
+          {
+            "label": "Maybach",
+            "value": "Maybach"
+          },
+          {
+            "label": "Mazda",
+            "value": "Mazda"
+          },
+          {
+            "label": "Mclaren",
+            "value": "Mclaren"
+          },
+          {
+            "label": "Mega",
+            "value": "Mega"
+          },
+          {
+            "label": "Mg",
+            "value": "Mg"
+          },
+          {
+            "label": "Mia",
+            "value": "Mia"
+          },
+          {
+            "label": "Mini",
+            "value": "Mini"
+          },
+          {
+            "label": "Mitsubishi",
+            "value": "Mitsubishi"
+          },
+          {
+            "label": "Morgan",
+            "value": "Morgan"
+          },
+          {
+            "label": "Nissan",
+            "value": "Nissan"
+          },
+          {
+            "label": "Pgo",
+            "value": "Pgo"
+          },
+          {
+            "label": "Piaggio",
+            "value": "Piaggio"
+          },
+          {
+            "label": "Polski/fso",
+            "value": "Polski/fso"
+          },
+          {
+            "label": "Pontiac",
+            "value": "Pontiac"
+          },
+          {
+            "label": "Porsche",
+            "value": "Porsche"
+          },
+          {
+            "label": "Proton",
+            "value": "Proton"
+          },
+          {
+            "label": "Rolls-royce",
+            "value": "Rolls-royce"
+          },
+          {
+            "label": "Rover",
+            "value": "Rover"
+          },
+          {
+            "label": "Saab",
+            "value": "Saab"
+          },
+          {
+            "label": "Santana",
+            "value": "Santana"
+          },
+          {
+            "label": "Seat",
+            "value": "Seat"
+          },
+          {
+            "label": "Shuanghuan",
+            "value": "Shuanghuan"
+          },
+          {
+            "label": "Skoda",
+            "value": "Skoda"
+          },
+          {
+            "label": "Smart",
+            "value": "Smart"
+          },
+          {
+            "label": "Ssangyong",
+            "value": "Ssangyong"
+          },
+          {
+            "label": "Subaru",
+            "value": "Subaru"
+          },
+          {
+            "label": "Suzuki",
+            "value": "Suzuki"
+          },
+          {
+            "label": "Talbot",
+            "value": "Talbot"
+          },
+          {
+            "label": "Tavria",
+            "value": "Tavria"
+          },
+          {
+            "label": "Tesla",
+            "value": "Tesla"
+          },
+          {
+            "label": "Toyota",
+            "value": "Toyota"
+          },
+          {
+            "label": "Tvr",
+            "value": "Tvr"
+          },
+          {
+            "label": "Venturi",
+            "value": "Venturi"
+          },
+          {
+            "label": "Volvo",
+            "value": "Volvo"
+          },
+          {
+            "label": "Autres",
+            "value": "Autres"
+          }
+        ]
+      },
+      {
+        "key": "modèle",
+        "type": "Input",
+        "label": "modèle",
+        "placeholder": "modèle",
+        "required": true
+      },
+      {
+        "key": "Année modèle",
+        "type": "Select",
+        "label": "Année modèle",
+        "placeholder": "Année modèle",
+        "value": "2020",
+        "items": [
+          {
+            "label": "2020",
+            "value": "2020"
+          },
+          {
+            "label": "2019",
+            "value": "2019"
+          },
+          {
+            "label": "2018",
+            "value": "2018"
+          },
+          {
+            "label": "2017",
+            "value": "2017"
+          },
+          {
+            "label": "2016",
+            "value": "2016"
+          },
+          {
+            "label": "2015",
+            "value": "2015"
+          }
+        ,
+          {
+            "label": "2014",
+            "value": "2014"
+          },
+          {
+            "label": "2013",
+            "value": "2013"
+          },
+          {
+            "label": "2012",
+            "value": "2012"
+          },
+          {
+            "label": "2011",
+            "value": "2011"
+          },
+          {
+            "label": "2010",
+            "value": "2010"
+          }
+        ,
+          {
+            "label": "2009",
+            "value": "2009"
+          },
+          {
+            "label": "2008",
+            "value": "2008"
+          },
+          {
+            "label": "2007",
+            "value": "Electrique"
+          },
+          {
+            "label": "2006",
+            "value": "Autre"
+          },
+          {
+            "label": "2005",
+            "value": "Hybride"
+          }
+        ,
+          {
+            "label": "2004",
+            "value": "Diesel"
+          },
+          {
+            "label": "2003",
+            "value": "GPL"
+          },
+          {
+            "label": "2001",
+            "value": "Electrique"
+          },
+          {
+            "label": "2000",
+            "value": "Autre"
+          },
+          {
+            "label": "1999",
+            "value": "Hybride"
+          }
+        ,
+          {
+            "label": "1998",
+            "value": "Diesel"
+          },
+          {
+            "label": "1997",
+            "value": "GPL"
+          },
+          {
+            "label": "1996",
+            "value": "Electrique"
+          },
+          {
+            "label": "1995",
+            "value": "Autre"
+          },
+          {
+            "label": "1994",
+            "value": "Hybride"
+          }
+        ,
+          {
+            "label": "1993",
+            "value": "Diesel"
+          },
+          {
+            "label": "1992",
+            "value": "GPL"
+          },
+          {
+            "label": "1991",
+            "value": "Electrique"
+          },
+          {
+            "label": "1990",
+            "value": "Autre"
+          },
+          {
+            "label": "1989",
+            "value": "Hybride"
+          }
+        ,
+          {
+            "label": "1988",
+            "value": "Diesel"
+          },
+          {
+            "label": "1987",
+            "value": "GPL"
+          },
+          {
+            "label": "1986",
+            "value": "Electrique"
+          },
+          {
+            "label": "1985",
+            "value": "Autre"
+          },
+          {
+            "label": "1984",
+            "value": "Hybride"
+          }
+        ,
+          {
+            "label": "1983",
+            "value": "Diesel"
+          },
+          {
+            "label": "1982",
+            "value": "GPL"
+          },
+          {
+            "label": "1981",
+            "value": "Electrique"
+          },
+          {
+            "label": "1980",
+            "value": "Autre"
+          },
+          {
+            "label": "199",
+            "value": "Hybride"
+          }
+        ,
+          {
+            "label": "1978",
+            "value": "Diesel"
+          },
+          {
+            "label": "1977",
+            "value": "GPL"
+          },
+          {
+            "label": "1976",
+            "value": "Electrique"
+          },
+          {
+            "label": "1975",
+            "value": "Autre"
+          },
+          {
+            "label": "1974",
+            "value": "Hybride"
+          }
+        ,
+          {
+            "label": "1973",
+            "value": "Diesel"
+          },
+          {
+            "label": "1972",
+            "value": "GPL"
+          },
+          {
+            "label": "1971",
+            "value": "Electrique"
+          },
+          {
+            "label": "1970",
+            "value": "Autre"
+          },
+          {
+            "label": "1969",
+            "value": "Hybride"
+          }
+        ,
+          {
+            "label": "1968",
+            "value": "Diesel"
+          },
+          {
+            "label": "1967",
+            "value": "GPL"
+          },
+          {
+            "label": "1965",
+            "value": "Electrique"
+          },
+          {
+            "label": "1964",
+            "value": "Autre"
+          },
+          {
+            "label": "1963",
+            "value": "Hybride"
+          }
+        ,
+          {
+            "label": "1962",
+            "value": "Diesel"
+          },
+          {
+            "label": "1961",
+            "value": "GPL"
+          },
+          {
+            "label": "1960 ou avant",
+            "value": "Electrique"
+          }
+        ]
+      },
+      {
+        "key": "DatedeCirculation",
+        "type": "Input",
+        "label": "Date de première mise en circulation",
+        "placeholder": "MM/AAAA",
+        "required": true
+      },
+      {
+        "key": "Carburant",
+        "type": "Select",
+        "label": "Carburant",
+        "placeholder": "Carburant",
+        "value": "Essence",
+        "items": [
+          {
+            "label": "Essence",
+            "value": "Essence"
+          },
+          {
+            "label": "Diesel",
+            "value": "Diesel"
+          },
+          {
+            "label": "GPL",
+            "value": "GPL"
+          },
+          {
+            "label": "Electrique",
+            "value": "Electrique"
+          },
+          {
+            "label": "Autre",
+            "value": "Autre"
+          },
+          {
+            "label": "Hybride",
+            "value": "Hybride"
+          }
+        ]
+      },
+      {
+        "key": "Boite de vitesse",
+        "type": "Select",
+        "label": "Boite de vitesse",
+        "value": "Mannuelle",
+        "items": [
+          {
+            "label": "Mannuelle",
+            "value": "Mannuelle"
+          },
+          {
+            "label": "Automatique",
+            "value": "Automatique"
+          }
+        ]
+
+      },
+      {
+        "key": "Type de véhicule",
+        "type": "Select",
+        "label": "Type de véhicule",
+        "value": "Citadine",
+        "items": [
+          {
+            "label": "4x4, SUV & Crossover",
+            "value": "4x4, SUV & Crossover"
+          },
+          {
+            "label": "Citadine",
+            "value": "Citadine"
+          },
+          {
+            "label": "Berline",
+            "value": "Berline"
+          },
+          {
+            "label": "Break",
+            "value": "Break"
+          },
+          {
+            "label": "Cabriolet",
+            "value": "Cabriolet"
+          },
+          {
+            "label": "Coupé",
+            "value": "Coupé"
+          },
+          {
+            "label": "Monospace",
+            "value": "Monospace"
+          },
+          {
+            "label": "Bus et minibus",
+            "value": "Bus et minibus"
+          },
+          {
+            "label": "Pick-up",
+            "value": "Pick-up"
+          },
+          {
+            "label": "Voiture société, commerciale",
+            "value": "Voiture société, commerciale"
+          },
+          {
+            "label": "Autre",
+            "value": "Autre"
+          }
+        ]
+      },
+      {
+        "key": "portes",
+        "type": "Select",
+        "label": "nombre de portes",
+        "value": "5",
+        "items": [
+          {
+            "label": "2",
+            "value": "2"
+          },
+          {
+            "label": "3",
+            "value": "3"
+          },
+          {
+            "label": "4",
+            "value": "4"
+          },
+          {
+            "label": "5",
+            "value": "5"
+          },
+          {
+            "label": "6 ou plus",
+            "value": "6 ou plus"
+          }
+        ]
+      },
+      {
+        "key": "place",
+        "type": "Select",
+        "label": "nombre de place(s)",
+        "value": "5",
+        "items": [
+          {
+            "label": "1",
+            "value": "1"
+          },
+          {
+            "label": "2",
+            "value": "2"
+          },
+          {
+            "label": "3",
+            "value": "3"
+          },
+          {
+            "label": "4",
+            "value": "4"
+          },
+          {
+            "label": "5",
+            "value": "5"
+          },
+          {
+            "label": "6",
+            "value": "6"
+          },
+          {
+            "label": "7 ou plus",
+            "value": "7 ou plus"
+          }
+        ]
+      },
+      {
+        "key": "Puissance fiscale",
+        "type": "Input",
+        "label": "Puissance fiscale",
+        "placeholder": "Puissance fiscale",
+        "required": true
+      },
+      {
+        "key": "Puissance DIN",
+        "type": "Input",
+        "label": "Puissance DIN",
+        "placeholder": "Puissance DIN",
+        "required": true
+      },
+      {
+        "key": "Permis",
+        "type": "Select",
+        "label": "Permis",
+        "value": "Avec permis",
+        "items": [
+          {
+            "label": "Avec permis",
+            "value": "Avec permis"
+          },
+          {
+            "label": "Sans permis",
+            "value": "Sans permis"
+          }
+        ]
+      },
+      {
+        "key": "Kilometrage",
+        "type": "Input",
+        "label": "Kilometrage",
+        "placeholder": "km",
+        "required": true
+      },
+      {
+        "key": "Couleur",
+        "type": "Select",
+        "label": "Couleur",
+        "value": "Argent",
+        "items": [
+          {
+            "label": "Argent",
+            "value": "Argent"
+          },
+          {
+            "label": "Beige",
+            "value": "Beige"
+          },
+          {
+            "label": "Blanc",
+            "value": "Blanc"
+          },
+          {
+            "label": "Bleu",
+            "value": "Bleu"
+          },
+          {
+            "label": "Bordeaux",
+            "value": "Bordeaux"
+          },
+          {
+            "label": "Gris",
+            "value": "Gris"
+          },
+          {
+            "label": "Ivoire",
+            "value": "Ivoire"
+          },
+          {
+            "label": "Jaune",
+            "value": "Jaune"
+          },
+          {
+            "label": "Marron",
+            "value": "Marron"
+          },
+          {
+            "label": "Noir",
+            "value": "Noir"
+          },
+          {
+            "label": "Orange",
+            "value": "Orange"
+          },
+          {
+            "label": "Rose",
+            "value": "Rose"
+          },
+          {
+            "label": "Rouge",
+            "value": "Rouge"
+          },
+          {
+            "label": "Vert",
+            "value": "Vert"
+          },
+          {
+            "label": "Violet",
+            "value": "Violet"
+          },
+          {
+            "label": "Autre",
+            "value": "Autre"
+          }
+        ]
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      },
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description de l'annonce",
+        "placeholder": "Description",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "id_parent_class": 2,
+    "label": "Motos",
+    "channel": "motos",
+    "fields": [
+      {
+        "key": "marque",
+        "type": "Select",
+        "label": "marque",
+        "value": "Yamaha",
+        "items": [
+          {
+            "label": "Yamaha",
+            "value": "Yamaha"
+          },
+          {
+            "label": "Honda",
+            "value": "Honda"
+          },
+          {
+            "label": "Susuki",
+            "value": "Susuki"
+          },
+          {
+            "label": "Kawasaki",
+            "value": "Kawasaki"
+          },
+          {
+            "label": "Bmw",
+            "value": "Bmw"
+          },
+          {
+            "label": "2Twenty",
+            "value": "2Twenty"
+          },
+          {
+            "label": "Access Motor",
+            "value": "Access Motor"
+          },
+          {
+            "label": "Acma",
+            "value": "Acma"
+          },
+          {
+            "label": "Adiva",
+            "value": "Adiva"
+          },
+          {
+            "label": "Adly",
+            "value": "Adly"
+          },{
+            "label": "Aeon",
+            "value": "Aeon"
+          },
+          {
+            "label": "Ajp",
+            "value": "Ajp"
+          },
+          {
+            "label": "Aprilia",
+            "value": "Aprilia"
+          },
+          {
+            "label": "Artic Cat",
+            "value": "Artic Cat"
+          },
+          {
+            "label": "Askoll",
+            "value": "Askoll"
+          },
+          {
+            "label": "Avinton",
+            "value": "Avinton"
+          },
+          {
+            "label": "Axr",
+            "value": "Axr"
+          },
+          {
+            "label": "Axroads",
+            "value": "Axroads"
+          },
+          {
+            "label": "Borossa",
+            "value": "Borossa"
+          },
+          {
+            "label": "Beneli",
+            "value": "Beneli"
+          },
+          {
+            "label": "Beta",
+            "value": "Beta"
+          },
+          {
+            "label": "Bimota",
+            "value": "Bimota"
+          },
+          {
+            "label": "Blaney",
+            "value": "Blaney"
+          },
+          {
+            "label": "Brixton",
+            "value": "Brixton"
+          },
+          {
+            "label": "Buell",
+            "value": "Buell"
+          },
+          {
+            "label": "Bullit",
+            "value": "Bullit"
+          },
+          {
+            "label": "Bultaco",
+            "value": "Bultaco"
+          },
+          {
+            "label": "Cagiva",
+            "value": "Cagiva"
+          },
+          {
+            "label": "Can_Am",
+            "value": "Can_Am"
+          },
+          {
+            "label": "Carvos",
+            "value": "Carvos"
+          },
+          {
+            "label": "Ccm",
+            "value": "Ccm"
+          },
+          {
+            "label": "Cectek",
+            "value": "Cectek"
+          },
+          {
+            "label": "Cf Moto",
+            "value": "Cf Moto"
+          },
+          {
+            "label": "Cineco",
+            "value": "Cineco"
+          },
+          {
+            "label": "Clipic",
+            "value": "Clipic"
+          },
+          {
+            "label": "Cpi",
+            "value": "Cpi"
+          },
+          {
+            "label": "Cyclone",
+            "value": "Cyclone"
+          },
+          {
+            "label": "Daelim",
+            "value": "Daelim"
+          },
+          {
+            "label": "Derbi",
+            "value": "Derbi"
+          },
+          {
+            "label": "Dinli",
+            "value": "Dinli"
+          },
+          {
+            "label": "Doohan",
+            "value": "Doohan"
+          },
+          {
+            "label": "Ducati",
+            "value": "Ducati"
+          },
+          {
+            "label": "E-Solex",
+            "value": "E-Solex"
+          },
+          {
+            "label": "E-Ton",
+            "value": "E-Ton"
+          },
+          {
+            "label": "Ec City",
+            "value": "Ec City"
+          },
+          {
+            "label": "Electric Motion",
+            "value": "Electric Motion"
+          },
+          {
+            "label": "Evo-Set",
+            "value": "Evo-Set"
+          },
+          {
+            "label": "Evoke",
+            "value": "Evoke"
+          },
+          {
+            "label": "Explorer",
+            "value": "Explorer"
+          },
+          {
+            "label": "Fantic",
+            "value": "Fantic"
+          },
+          {
+            "label": "Fb Mondial",
+            "value": "Fb Mondial"
+          },
+          {
+            "label": "Fun Tech",
+            "value": "Fun Tech"
+          },
+          {
+            "label": "Fym",
+            "value": "Fym"
+          },
+          {
+            "label": "Gas Gas",
+            "value": "Gas Gas"
+          },
+          {
+            "label": "Generic",
+            "value": "Generic"
+          },
+          {
+            "label": "Gilera",
+            "value": "Gilera"
+          },
+          {
+            "label": "Goes",
+            "value": "Goes"
+          },
+          {
+            "label": "Govecs",
+            "value": "Govecs"
+          },
+          {
+            "label": "Gowinn",
+            "value": "Gowinn"
+          },
+          {
+            "label": "Hanway",
+            "value": "Hanway"
+          },
+          {
+            "label": "Harley Davidson",
+            "value": "Harley Davidson"
+          },
+          {
+            "label": "Heroway",
+            "value": "Heroway"
+          },
+          {
+            "label": "Hm",
+            "value": "Hm"
+          },
+          {
+            "label": "Hm moto",
+            "value": "Hm moto"
+          },
+          {
+            "label": "Hm-Honda",
+            "value": "Hm-Honda"
+          },
+          {
+            "label": "Hrd",
+            "value": "Hrd"
+          },
+          {
+            "label": "Husaberg",
+            "value": "Husaberg"
+          },          {
+            "label": "Husqvarna",
+            "value": "Husqvarna"
+          },          {
+            "label": "Hyosung",
+            "value": "Hyosung"
+          },
+          {
+            "label": "Hytrack",
+            "value": "Hytrack"
+          },
+          {
+            "label": "Imf",
+            "value": "Imf"
+          },          {
+            "label": "India",
+            "value": "India"
+          },          {
+            "label": "Italjet",
+            "value": "Italjet"
+          },
+          {
+            "label": "Italvel",
+            "value": "Italvel"
+          },
+          {
+            "label": "Jawa-Cz",
+            "value": "Jawa-Cz"
+          },          {
+            "label": "Jialing",
+            "value": "Jialing"
+          },          {
+            "label": "Jianshe",
+            "value": "Jianshe"
+          },
+          {
+            "label": "Jinsheng",
+            "value": "Jinsheng"
+          },
+          {
+            "label": "Johnny Pag",
+            "value": "Johnny Pag"
+          },          {
+            "label": "Jordan",
+            "value": "Jordan"
+          },          {
+            "label": "KTM",
+            "value": "KTM"
+          },
+          {
+            "label": "Kazuma",
+            "value": "Kazuma"
+          },
+          {
+            "label": "Keeway",
+            "value": "Keeway"
+          },          {
+            "label": "Kinder",
+            "value": "Kinder"
+          },          {
+            "label": "Kinroad",
+            "value": "Kinroad"
+          },
+          {
+            "label": "Kl",
+            "value": "Kl"
+          },
+          {
+            "label": "Kreidler",
+            "value": "Kreidler"
+          },          {
+            "label": "Ksr Moto",
+            "value": "Ksr Moto"
+          },
+          {
+            "label": "Kvn",
+            "value": "Kvn"
+          },
+          {
+            "label": "Kymco",
+            "value": "Kymco"
+          },
+          {
+            "label": "Laverda",
+            "value": "Laverda"
+          },
+          {
+            "label": "Lem",
+            "value": "Lem"
+          },
+          {
+            "label": "Lifan",
+            "value": "Lifan"
+          },
+          {
+            "label": "Linhai",
+            "value": "Linhai"
+          },
+          {
+            "label": "Lml",
+            "value": "Lml"
+          },
+          {
+            "label": "Loncin",
+            "value": "Loncin"
+          },
+          {
+            "label": "Magpower",
+            "value": "Magpower"
+          },
+          {
+            "label": "Malaguti",
+            "value": "Malaguti"
+          },
+          {
+            "label": "Masai",
+            "value": "Masai"
+          },
+          {
+            "label": "Mash",
+            "value": "Mash"
+          },
+          {
+            "label": "Mbk",
+            "value": "Mbk"
+          },
+          {
+            "label": "Metrakit",
+            "value": "Metrakit"
+          },
+          {
+            "label": "Minico",
+            "value": "Minico"
+          },
+          {
+            "label": "Mistral",
+            "value": "Mistral"
+          },
+          {
+            "label": "Minico",
+            "value": "Minico"
+          },
+          {
+            "label": "Mistral",
+            "value": "Mistral"
+          },
+          {
+            "label": "Monnier",
+            "value": "Monnier"
+          },
+          {
+            "label": "Montesa",
+            "value": "Montesa"
+          },
+          {
+            "label": "Moto Guzzi",
+            "value": "Moto Guzzi"
+          },
+          {
+            "label": "Moto Morini",
+            "value": "Moto Morini"
+          },
+          {
+            "label": "Msa",
+            "value": "Msa"
+          },
+          {
+            "label": "Muz",
+            "value": "Muz"
+          },
+          {
+            "label": "Mv-Agusta",
+            "value": "Mv-Agusta"
+          },
+          {
+            "label": "Mz",
+            "value": "Mz"
+          },
+          {
+            "label": "Neco",
+            "value": "Neco"
+          },
+          {
+            "label": "Nfm",
+            "value": "Nfm"
+          },
+          {
+            "label": "Niu",
+            "value": "Niu"
+          },
+          {
+            "label": "Norton",
+            "value": "Norton"
+          },
+          {
+            "label": "Orcal",
+            "value": "Orcal"
+          },
+          {
+            "label": "Ossa",
+            "value": "Ossa"
+          },
+          {
+            "label": "Oxo Bike",
+            "value": "Oxo Bike"
+          },
+          {
+            "label": "Laverda",
+            "value": "Laverda"
+          },
+
+          {
+            "label": "Kvn",
+            "value": "Kvn"
+          },
+          {
+            "label": "Ksr Moto",
+            "value": "Ksr Moto"
+          },          {
+            "label": "Kvn",
+            "value": "Kvn"
+          },
+          {
+            "label": "Ksr Moto",
+            "value": "Ksr Moto"
+          },          {
+            "label": "Kvn",
+            "value": "Kvn"
+          },
+          {
+            "label": "Ksr Moto",
+            "value": "Ksr Moto"
+          },          {
+            "label": "Kvn",
+            "value": "Kvn"
+          },
+          {
+            "label": "Ksr Moto",
+            "value": "Ksr Moto"
+          },          {
+            "label": "Kvn",
+            "value": "Kvn"
+          },
+          {
+            "label": "Ksr Moto",
+            "value": "Ksr Moto"
+          },          {
+            "label": "Kvn",
+            "value": "Kvn"
+          },
+          {
+            "label": "Ksr Moto",
+            "value": "Ksr Moto"
+          },          {
+            "label": "Kvn",
+            "value": "Kvn"
+          },
+          {
+            "label": "Ksr Moto",
+            "value": "Ksr Moto"
+          },          {
+            "label": "Kvn",
+            "value": "Kvn"
+          },
+
+          {
+            "label": "Moto Morini",
+            "value": "Moto Morini"
+          },
+          {
+            "label": "Msa",
+            "value": "Msa"
+          },
+          {
+            "label": "Muz",
+            "value": "Muz"
+          },
+          {
+            "label": "Mv-Agusta",
+            "value": "Mv-Agusta"
+          },
+          {
+            "label": "Mz",
+            "value": "Mz"
+          },
+          {
+            "label": "Neco",
+            "value": "Neco"
+          },
+          {
+            "label": "Nfm",
+            "value": "Nfm"
+          },
+          {
+            "label": "Niu",
+            "value": "Niu"
+          },
+          {
+            "label": "Norton",
+            "value": "Norton"
+          },
+          {
+            "label": "Orcal",
+            "value": "Orcal"
+          },
+          {
+            "label": "Ossa",
+            "value": "Ossa"
+          },
+          {
+            "label": "Oxo Bike",
+            "value": "Oxo Bike"
+          },
+          {
+            "label": "Peugeot",
+            "value": "Peugeot"
+          },
+          {
+            "label": "Pgo",
+            "value": "Pgo"
+          },
+          {
+            "label": "Piaggio",
+            "value": "Piaggio"
+          },
+          {
+            "label": "Pink Mobility",
+            "value": "Pink Mobility"
+          },
+          {
+            "label": "Polaris",
+            "value": "Polaris"
+          },
+          {
+            "label": "Qingqi",
+            "value": "Qingqi"
+          },
+          {
+            "label": "Quadro",
+            "value": "Quadro"
+          },
+          {
+            "label": "Rede",
+            "value": "Rede"
+          },
+          {
+            "label": "Regal Raptor",
+            "value": "Regal Raptor"
+          },
+          {
+            "label": "Renault",
+            "value": "Renault"
+          },
+          {
+            "label": "Revatto",
+            "value": "Revatto"
+          },
+          {
+            "label": "Rider",
+            "value": "Rider"
+          },
+          {
+            "label": "Rieju",
+            "value": "Rieju"
+          },
+          {
+            "label": "Rival Motors",
+            "value": "Rival Motors"
+          },
+          {
+            "label": "Rj",
+            "value": "Rj"
+          },
+          {
+            "label": "Roxon",
+            "value": "Roxon"
+          },
+          {
+            "label": "Royal Enfield",
+            "value": "Royal Enfield"
+          },
+          {
+            "label": "Sachs",
+            "value": "Sachs"
+          },
+          {
+            "label": "Sherco",
+            "value": "Sherco"
+          },
+          {
+            "label": "Silence",
+            "value": "Silence"
+          },
+          {
+            "label": "Skyteam",
+            "value": "Skyteam"
+          },
+          {
+            "label": "Super Socco",
+            "value": "Super Socco"
+          },
+          {
+            "label": "Swm",
+            "value": "Swm"
+          },
+          {
+            "label": "Sy",
+            "value": "Sy"
+          },
+          {
+            "label": "Tendance",
+            "value": "Tendance"
+          },
+          {
+            "label": "Tgb",
+            "value": "Tgb"
+          },
+          {
+            "label": "Tnt Motor",
+            "value": "Tnt Motor"
+          },
+          {
+            "label": "Triton",
+            "value": "Triton"
+          },
+          {
+            "label": "Triumph",
+            "value": "Triumph"
+          },
+          {
+            "label": "Vastro",
+            "value": "Vastro"
+          },
+          {
+            "label": "Vespa",
+            "value": "Vespa"
+          },
+          {
+            "label": "Victory",
+            "value": "Victory"
+          },
+          {
+            "label": "Voxan",
+            "value": "Voxan"
+          },
+          {
+            "label": "Whattz",
+            "value": "Whattz"
+          },
+          {
+            "label": "Yadea",
+            "value": "Yadea"
+          },
+          {
+            "label": "Yakuza",
+            "value": "Yakuza"
+          },
+          {
+            "label": "Ycf",
+            "value": "Ycf"
+          },
+          {
+            "label": "Yiying",
+            "value": "Yiying"
+          },
+          {
+            "label": "Zero Motorcycles",
+            "value": "Zero Motorcycles"
+          },
+          {
+            "label": "Zhongyu",
+            "value": "Zhongyu"
+          },
+          {
+            "label": "Zongchen",
+            "value": "Zongchen"
+          },
+          {
+            "label": "Autres",
+            "value": "Autres"
+          }
+        ]
+      },
+      {
+        "key": "modèle",
+        "type": "Input",
+        "label": "modèle",
+        "placeholder": "modèle",
+        "required": true
+      },
+      {
+        "key": "Année modèle",
+        "type": "Select",
+        "label": "Année modèle",
+        "placeholder": "Année modèle",
+        "value": "2020",
+        "items": [
+          {
+            "label": "2020",
+            "value": "2020"
+          },
+          {
+            "label": "2019",
+            "value": "2019"
+          },
+          {
+            "label": "2018",
+            "value": "2018"
+          },
+          {
+            "label": "2017",
+            "value": "2017"
+          },
+          {
+            "label": "2016",
+            "value": "2016"
+          },
+          {
+            "label": "2015",
+            "value": "2015"
+          }
+        ,
+          {
+            "label": "2014",
+            "value": "2014"
+          },
+          {
+            "label": "2013",
+            "value": "2013"
+          },
+          {
+            "label": "2012",
+            "value": "2012"
+          },
+          {
+            "label": "2011",
+            "value": "2011"
+          },
+          {
+            "label": "2010",
+            "value": "2010"
+          }
+        ,
+          {
+            "label": "2009",
+            "value": "2009"
+          },
+          {
+            "label": "2008",
+            "value": "2008"
+          },
+          {
+            "label": "2007",
+            "value": "Electrique"
+          },
+          {
+            "label": "2006",
+            "value": "Autre"
+          },
+          {
+            "label": "2005",
+            "value": "Hybride"
+          }
+        ,
+          {
+            "label": "2004",
+            "value": "Diesel"
+          },
+          {
+            "label": "2003",
+            "value": "GPL"
+          },
+          {
+            "label": "2001",
+            "value": "Electrique"
+          },
+          {
+            "label": "2000",
+            "value": "Autre"
+          },
+          {
+            "label": "1999",
+            "value": "Hybride"
+          }
+        ,
+          {
+            "label": "1998",
+            "value": "Diesel"
+          },
+          {
+            "label": "1997",
+            "value": "GPL"
+          },
+          {
+            "label": "1996",
+            "value": "Electrique"
+          },
+          {
+            "label": "1995",
+            "value": "Autre"
+          },
+          {
+            "label": "1994",
+            "value": "Hybride"
+          }
+        ,
+          {
+            "label": "1993",
+            "value": "Diesel"
+          },
+          {
+            "label": "1992",
+            "value": "GPL"
+          },
+          {
+            "label": "1991",
+            "value": "Electrique"
+          },
+          {
+            "label": "1990",
+            "value": "Autre"
+          },
+          {
+            "label": "1989",
+            "value": "Hybride"
+          }
+        ,
+          {
+            "label": "1988",
+            "value": "Diesel"
+          },
+          {
+            "label": "1987",
+            "value": "GPL"
+          },
+          {
+            "label": "1986",
+            "value": "Electrique"
+          },
+          {
+            "label": "1985",
+            "value": "Autre"
+          },
+          {
+            "label": "1984",
+            "value": "Hybride"
+          }
+        ,
+          {
+            "label": "1983",
+            "value": "Diesel"
+          },
+          {
+            "label": "1982",
+            "value": "GPL"
+          },
+          {
+            "label": "1981",
+            "value": "Electrique"
+          },
+          {
+            "label": "1980",
+            "value": "Autre"
+          },
+          {
+            "label": "199",
+            "value": "Hybride"
+          }
+        ,
+          {
+            "label": "1978",
+            "value": "Diesel"
+          },
+          {
+            "label": "1977",
+            "value": "GPL"
+          },
+          {
+            "label": "1976",
+            "value": "Electrique"
+          },
+          {
+            "label": "1975",
+            "value": "Autre"
+          },
+          {
+            "label": "1974",
+            "value": "Hybride"
+          }
+        ,
+          {
+            "label": "1973",
+            "value": "Diesel"
+          },
+          {
+            "label": "1972",
+            "value": "GPL"
+          },
+          {
+            "label": "1971",
+            "value": "Electrique"
+          },
+          {
+            "label": "1970",
+            "value": "Autre"
+          },
+          {
+            "label": "1969",
+            "value": "Hybride"
+          }
+        ,
+          {
+            "label": "1968",
+            "value": "Diesel"
+          },
+          {
+            "label": "1967",
+            "value": "GPL"
+          },
+          {
+            "label": "1965",
+            "value": "Electrique"
+          },
+          {
+            "label": "1964",
+            "value": "Autre"
+          },
+          {
+            "label": "1963",
+            "value": "Hybride"
+          }
+        ,
+          {
+            "label": "1962",
+            "value": "Diesel"
+          },
+          {
+            "label": "1961",
+            "value": "GPL"
+          },
+          {
+            "label": "1960 ou avant",
+            "value": "Electrique"
+          }
+        ]
+      },
+      {
+        "key": "Kilometrage",
+        "type": "Input",
+        "label": "Kilometrage",
+        "placeholder": "km",
+        "required": true
+      },
+      {
+        "key": "Cylindrée",
+        "type": "Input",
+        "label": "Cylindrée",
+        "placeholder": "cm3",
+        "required": true
+      },
+      {
+        "key": "DatedeCirculation",
+        "type": "Input",
+        "label": "Date de première mise en circulation",
+        "placeholder": "MM/AAAA",
+        "required": true
+      },
+      {
+        "key": "Couleur",
+        "type": "Select",
+        "label": "Couleur",
+        "value": "Argent",
+        "items": [
+          {
+            "label": "Argent",
+            "value": "Argent"
+          },
+          {
+            "label": "Beige",
+            "value": "Beige"
+          },
+          {
+            "label": "Blanc",
+            "value": "Blanc"
+          },
+          {
+            "label": "Bleu",
+            "value": "Bleu"
+          },
+          {
+            "label": "Bordeaux",
+            "value": "Bordeaux"
+          },
+          {
+            "label": "Gris",
+            "value": "Gris"
+          },
+          {
+            "label": "Ivoire",
+            "value": "Ivoire"
+          },
+          {
+            "label": "Jaune",
+            "value": "Jaune"
+          },
+          {
+            "label": "Marron",
+            "value": "Marron"
+          },
+          {
+            "label": "Noir",
+            "value": "Noir"
+          },
+          {
+            "label": "Orange",
+            "value": "Orange"
+          },
+          {
+            "label": "Rose",
+            "value": "Rose"
+          },
+          {
+            "label": "Rouge",
+            "value": "Rouge"
+          },
+          {
+            "label": "Vert",
+            "value": "Vert"
+          },
+          {
+            "label": "Violet",
+            "value": "Violet"
+          },
+          {
+            "label": "Autre",
+            "value": "Autre"
+          }
+        ]
+      },
+      {
+        "key": "Type",
+        "type": "Select",
+        "label": "Type",
+        "value": "Moto",
+        "items": [
+          {
+            "label": "Moto",
+            "value": "Moto"
+          },
+          {
+            "label": "Scooter",
+            "value": "Scooter"
+          },
+          {
+            "label": "Quad",
+            "value": "Quad"
+          },
+          {
+            "label": "Autre",
+            "value": "Autre"
+          }
+        ]
+      },
+      {
+        "key": "Permis",
+        "type": "Select",
+        "label": "Permis",
+        "value": "Permis A",
+        "items": [
+          {
+            "label": "Permis As",
+            "value": "Permis A"
+          },
+          {
+            "label": "Permis AL",
+            "value": "Permis AL"
+          },
+          {
+            "label": "Sans permis",
+            "value": "Sans permis"
+          }
+        ]
+      },
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description de l'annonce",
+        "placeholder": "Description",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "id_parent_class": 2,
+    "label": "Caravaning",
+    "channel": "caravaning",
+    "fields": [
+      {
+        "key": "Année modèle",
+        "type": "Select",
+        "label": "Année modèle",
+        "placeholder": "Année modèle",
+        "value": "2020",
+        "items": [
+          {
+            "label": "2020",
+            "value": "2020"
+          },
+          {
+            "label": "2019",
+            "value": "2019"
+          },
+          {
+            "label": "2018",
+            "value": "2018"
+          },
+          {
+            "label": "2017",
+            "value": "2017"
+          },
+          {
+            "label": "2016",
+            "value": "2016"
+          },
+          {
+            "label": "2015",
+            "value": "2015"
+          }
+        ,
+          {
+            "label": "2014",
+            "value": "2014"
+          },
+          {
+            "label": "2013",
+            "value": "2013"
+          },
+          {
+            "label": "2012",
+            "value": "2012"
+          },
+          {
+            "label": "2011",
+            "value": "2011"
+          },
+          {
+            "label": "2010",
+            "value": "2010"
+          }
+        ,
+          {
+            "label": "2009",
+            "value": "2009"
+          },
+          {
+            "label": "2008",
+            "value": "2008"
+          },
+          {
+            "label": "2007",
+            "value": "Electrique"
+          },
+          {
+            "label": "2006",
+            "value": "Autre"
+          },
+          {
+            "label": "2005",
+            "value": "Hybride"
+          }
+        ,
+          {
+            "label": "2004",
+            "value": "Diesel"
+          },
+          {
+            "label": "2003",
+            "value": "GPL"
+          },
+          {
+            "label": "2001",
+            "value": "Electrique"
+          },
+          {
+            "label": "2000",
+            "value": "Autre"
+          },
+          {
+            "label": "1999",
+            "value": "Hybride"
+          }
+        ,
+          {
+            "label": "1998",
+            "value": "Diesel"
+          },
+          {
+            "label": "1997",
+            "value": "GPL"
+          },
+          {
+            "label": "1996",
+            "value": "Electrique"
+          },
+          {
+            "label": "1995",
+            "value": "Autre"
+          },
+          {
+            "label": "1994",
+            "value": "Hybride"
+          }
+        ,
+          {
+            "label": "1993",
+            "value": "Diesel"
+          },
+          {
+            "label": "1992",
+            "value": "GPL"
+          },
+          {
+            "label": "1991",
+            "value": "Electrique"
+          },
+          {
+            "label": "1990",
+            "value": "Autre"
+          },
+          {
+            "label": "1989",
+            "value": "Hybride"
+          }
+        ,
+          {
+            "label": "1988",
+            "value": "Diesel"
+          },
+          {
+            "label": "1987",
+            "value": "GPL"
+          },
+          {
+            "label": "1986",
+            "value": "Electrique"
+          },
+          {
+            "label": "1985",
+            "value": "Autre"
+          },
+          {
+            "label": "1984",
+            "value": "Hybride"
+          }
+        ,
+          {
+            "label": "1983",
+            "value": "Diesel"
+          },
+          {
+            "label": "1982",
+            "value": "GPL"
+          },
+          {
+            "label": "1981",
+            "value": "Electrique"
+          },
+          {
+            "label": "1980",
+            "value": "Autre"
+          },
+          {
+            "label": "199",
+            "value": "Hybride"
+          }
+        ,
+          {
+            "label": "1978",
+            "value": "Diesel"
+          },
+          {
+            "label": "1977",
+            "value": "GPL"
+          },
+          {
+            "label": "1976",
+            "value": "Electrique"
+          },
+          {
+            "label": "1975",
+            "value": "Autre"
+          },
+          {
+            "label": "1974",
+            "value": "Hybride"
+          }
+        ,
+          {
+            "label": "1973",
+            "value": "Diesel"
+          },
+          {
+            "label": "1972",
+            "value": "GPL"
+          },
+          {
+            "label": "1971",
+            "value": "Electrique"
+          },
+          {
+            "label": "1970",
+            "value": "Autre"
+          },
+          {
+            "label": "1969",
+            "value": "Hybride"
+          }
+        ,
+          {
+            "label": "1968",
+            "value": "Diesel"
+          },
+          {
+            "label": "1967",
+            "value": "GPL"
+          },
+          {
+            "label": "1965",
+            "value": "Electrique"
+          },
+          {
+            "label": "1964",
+            "value": "Autre"
+          },
+          {
+            "label": "1963",
+            "value": "Hybride"
+          }
+        ,
+          {
+            "label": "1962",
+            "value": "Diesel"
+          },
+          {
+            "label": "1961",
+            "value": "GPL"
+          },
+          {
+            "label": "1960 ou avant",
+            "value": "Electrique"
+          }
+        ]
+      },
+      {
+        "key": "Kilometrage",
+        "type": "Input",
+        "label": "kilométrage",
+        "placeholder": "km",
+        "required": true
+      },
+      {
+        "key": "DateCirculation",
+        "type": "Input",
+        "label": "Date de première mis en circulation",
+        "placeholder": "MM/AAAA",
+        "required": true
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      },
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description de l'annonce",
+        "placeholder": "Description",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "id_parent_class": 2,
+    "label": "Utilitaires",
+    "channel": "utilitaires",
+    "fields": [
+      {
+        "key": "Année modèle",
+        "type": "Select",
+        "label": "Année modèle",
+        "placeholder": "Année modèle",
+        "value": "2020",
+        "items": [
+          {
+            "label": "2020",
+            "value": "2020"
+          },
+          {
+            "label": "2019",
+            "value": "2019"
+          },
+          {
+            "label": "2018",
+            "value": "2018"
+          },
+          {
+            "label": "2017",
+            "value": "2017"
+          },
+          {
+            "label": "2016",
+            "value": "2016"
+          },
+          {
+            "label": "2015",
+            "value": "2015"
+          }
+        ,
+          {
+            "label": "2014",
+            "value": "2014"
+          },
+          {
+            "label": "2013",
+            "value": "2013"
+          },
+          {
+            "label": "2012",
+            "value": "2012"
+          },
+          {
+            "label": "2011",
+            "value": "2011"
+          },
+          {
+            "label": "2010",
+            "value": "2010"
+          }
+        ,
+          {
+            "label": "2009",
+            "value": "2009"
+          },
+          {
+            "label": "2008",
+            "value": "2008"
+          },
+          {
+            "label": "2007",
+            "value": "Electrique"
+          },
+          {
+            "label": "2006",
+            "value": "Autre"
+          },
+          {
+            "label": "2005",
+            "value": "Hybride"
+          }
+        ,
+          {
+            "label": "2004",
+            "value": "Diesel"
+          },
+          {
+            "label": "2003",
+            "value": "GPL"
+          },
+          {
+            "label": "2001",
+            "value": "Electrique"
+          },
+          {
+            "label": "2000",
+            "value": "Autre"
+          },
+          {
+            "label": "1999",
+            "value": "Hybride"
+          }
+        ,
+          {
+            "label": "1998",
+            "value": "Diesel"
+          },
+          {
+            "label": "1997",
+            "value": "GPL"
+          },
+          {
+            "label": "1996",
+            "value": "Electrique"
+          },
+          {
+            "label": "1995",
+            "value": "Autre"
+          },
+          {
+            "label": "1994",
+            "value": "Hybride"
+          }
+        ,
+          {
+            "label": "1993",
+            "value": "Diesel"
+          },
+          {
+            "label": "1992",
+            "value": "GPL"
+          },
+          {
+            "label": "1991",
+            "value": "Electrique"
+          },
+          {
+            "label": "1990",
+            "value": "Autre"
+          },
+          {
+            "label": "1989",
+            "value": "Hybride"
+          }
+        ,
+          {
+            "label": "1988",
+            "value": "Diesel"
+          },
+          {
+            "label": "1987",
+            "value": "GPL"
+          },
+          {
+            "label": "1986",
+            "value": "Electrique"
+          },
+          {
+            "label": "1985",
+            "value": "Autre"
+          },
+          {
+            "label": "1984",
+            "value": "Hybride"
+          }
+        ,
+          {
+            "label": "1983",
+            "value": "Diesel"
+          },
+          {
+            "label": "1982",
+            "value": "GPL"
+          },
+          {
+            "label": "1981",
+            "value": "Electrique"
+          },
+          {
+            "label": "1980",
+            "value": "Autre"
+          },
+          {
+            "label": "199",
+            "value": "Hybride"
+          }
+        ,
+          {
+            "label": "1978",
+            "value": "Diesel"
+          },
+          {
+            "label": "1977",
+            "value": "GPL"
+          },
+          {
+            "label": "1976",
+            "value": "Electrique"
+          },
+          {
+            "label": "1975",
+            "value": "Autre"
+          },
+          {
+            "label": "1974",
+            "value": "Hybride"
+          }
+        ,
+          {
+            "label": "1973",
+            "value": "Diesel"
+          },
+          {
+            "label": "1972",
+            "value": "GPL"
+          },
+          {
+            "label": "1971",
+            "value": "Electrique"
+          },
+          {
+            "label": "1970",
+            "value": "Autre"
+          },
+          {
+            "label": "1969",
+            "value": "Hybride"
+          }
+        ,
+          {
+            "label": "1968",
+            "value": "Diesel"
+          },
+          {
+            "label": "1967",
+            "value": "GPL"
+          },
+          {
+            "label": "1965",
+            "value": "Electrique"
+          },
+          {
+            "label": "1964",
+            "value": "Autre"
+          },
+          {
+            "label": "1963",
+            "value": "Hybride"
+          }
+        ,
+          {
+            "label": "1962",
+            "value": "Diesel"
+          },
+          {
+            "label": "1961",
+            "value": "GPL"
+          },
+          {
+            "label": "1960 ou avant",
+            "value": "Electrique"
+          }
+        ]
+      },
+      {
+        "key": "DatedeCirculation",
+        "type": "Input",
+        "label": "Date de première mise en circulation",
+        "placeholder": "MM/AAAA",
+        "required": true
+      },
+      {
+        "key": "Kilometrage",
+        "type": "Input",
+        "label": "Kilometrage",
+        "placeholder": "km",
+        "required": true
+      },
+      {
+        "key": "Carburant",
+        "type": "Select",
+        "label": "Carburant",
+        "placeholder": "Carburant",
+        "value": "Essence",
+        "items": [
+          {
+            "label": "Essence",
+            "value": "Essence"
+          },
+          {
+            "label": "Diesel",
+            "value": "Diesel"
+          },
+          {
+            "label": "GPL",
+            "value": "GPL"
+          },
+          {
+            "label": "Electrique",
+            "value": "Electrique"
+          },
+          {
+            "label": "Autre",
+            "value": "Autre"
+          },
+          {
+            "label": "Hybride",
+            "value": "Hybride"
+          }
+        ]
+      },
+      {
+        "key": "Boite de vitesse",
+        "type": "Select",
+        "label": "Boite de vitesse",
+        "value": "Mannuelle",
+        "items": [
+          {
+            "label": "Mannuelle",
+            "value": "Mannuelle"
+          },
+          {
+            "label": "Automatique",
+            "value": "Automatique"
+          }
+        ]
+
+      },
+      {
+        "key": "Couleur",
+        "type": "Select",
+        "label": "Couleur",
+        "value": "Argent",
+        "items": [
+          {
+            "label": "Argent",
+            "value": "Argent"
+          },
+          {
+            "label": "Beige",
+            "value": "Beige"
+          },
+          {
+            "label": "Blanc",
+            "value": "Blanc"
+          },
+          {
+            "label": "Bleu",
+            "value": "Bleu"
+          },
+          {
+            "label": "Bordeaux",
+            "value": "Bordeaux"
+          },
+          {
+            "label": "Gris",
+            "value": "Gris"
+          },
+          {
+            "label": "Ivoire",
+            "value": "Ivoire"
+          },
+          {
+            "label": "Jaune",
+            "value": "Jaune"
+          },
+          {
+            "label": "Marron",
+            "value": "Marron"
+          },
+          {
+            "label": "Noir",
+            "value": "Noir"
+          },
+          {
+            "label": "Orange",
+            "value": "Orange"
+          },
+          {
+            "label": "Rose",
+            "value": "Rose"
+          },
+          {
+            "label": "Rouge",
+            "value": "Rouge"
+          },
+          {
+            "label": "Vert",
+            "value": "Vert"
+          },
+          {
+            "label": "Violet",
+            "value": "Violet"
+          },
+          {
+            "label": "Autre",
+            "value": "Autre"
+          }
+        ]
+      },
+      {
+        "key": "portes",
+        "type": "Select",
+        "label": "nombre de portes",
+        "value": "5",
+        "items": [
+          {
+            "label": "2",
+            "value": "2"
+          },
+          {
+            "label": "3",
+            "value": "3"
+          },
+          {
+            "label": "4",
+            "value": "4"
+          },
+          {
+            "label": "5",
+            "value": "5"
+          },
+          {
+            "label": "6 ou plus",
+            "value": "6 ou plus"
+          }
+        ]
+      },
+      {
+        "key": "place",
+        "type": "Select",
+        "label": "nombre de place(s)",
+        "value": "5",
+        "items": [
+          {
+            "label": "1",
+            "value": "1"
+          },
+          {
+            "label": "2",
+            "value": "2"
+          },
+          {
+            "label": "3",
+            "value": "3"
+          },
+          {
+            "label": "4",
+            "value": "4"
+          },
+          {
+            "label": "5",
+            "value": "5"
+          },
+          {
+            "label": "6",
+            "value": "6"
+          },
+          {
+            "label": "7 ou plus",
+            "value": "7 ou plus"
+          }
+        ]
+      },
+      {
+        "key": "PuissanceF",
+        "type": "Input",
+        "label": "Puissance fiscale",
+        "placeholder": "Cv",
+        "required": true
+      },
+      {
+        "key": "PuissanceDin",
+        "type": "Input",
+        "label": "Puissance DIN",
+        "placeholder": "Ch",
+        "required": true
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      },
+      {
+        "key": "Titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description de l'annonce",
+        "placeholder": "Description",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "id_parent_class": 2,
+    "label": "Nautisme",
+    "channel": "nautisme",
+    "fields": [
+      {
+        "key": "Type",
+        "type": "Select",
+        "label": "Type",
+        "value": "Barques",
+        "items": [
+          {
+            "label": "Barques",
+            "value": "Barques"
+          },
+          {
+            "label": "Bateau à moteur",
+            "value": "Bateau à moteur"
+          },
+          {
+            "label": "Jets ski, scooters",
+            "value": "Jets ski, scooters"
+          },
+          {
+            "label": "Pneumatiques, remi-rigides",
+            "value": "Pneumatiques, remi-rigides"
+          },
+          {
+            "label": "Voiliers monocoques",
+            "value": "Voiliers monocoques"
+          },
+          {
+            "label": "Voiliers multicoques",
+            "value": "Voiliers multicoque"
+          },
+          {
+            "label": "Yachts",
+            "value": "Yachts"
+          },
+          {
+            "label": "Autre",
+            "value": "Autre"
+          }
+        ]
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      },
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description de l'annonce",
+        "placeholder": "Description",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "id_parent_class": 2,
+    "label": "Equipement Auto",
+    "channel": "equipement_auto",
+    "fields": [
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description  de l'annonce",
+        "placeholder": "Description de l'annonce",
+        "required": true
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "id_parent_class": 2,
+    "label": "Equipement Moto",
+    "channel": "equipement_moto",
+    "fields": [
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description  de l'annonce",
+        "placeholder": "Description de l'annonce",
+        "required": true
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "id_parent_class": 2,
+    "label": "Equipement Caravaning",
+    "channel": "equipement_caravaning",
+    "fields": [
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description  de l'annonce",
+        "placeholder": "Description de l'annonce",
+        "required": true
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      },
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description de l'annonce",
+        "placeholder": "Description",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "id_parent_class": 2,
+    "label": "Equipement Nautisme",
+    "channel": "equipement_nautisme",
+    "fields": [
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description  de l'annonce",
+        "placeholder": "Description de l'annonce",
+        "required": true
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      },
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description de l'annonce",
+        "placeholder": "Description",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "id_parent_class": 12,
+    "label": "Ventes immobilières",
+    "channel": "ventes_immobilieres",
+    "fields": [
+      {
+        "key": "TypeVente",
+        "type": "Select",
+        "label": "Type de vente",
+        "value": "Ancien",
+        "items": [
+          {
+            "label": "Ancien",
+            "value": "Ancien"
+          },
+          {
+            "label": "Viager",
+            "value": "Viager"
+          }
+        ]
+      },
+      {
+        "key": "TypeBien",
+        "type": "Select",
+        "label": "TypeBien",
+        "value": "Maison",
+        "items": [
+          {
+            "label": "Maison",
+            "value": "Maison"
+          },
+          {
+            "label": "Appart",
+            "value": "Appart"
+          },
+          {
+            "label": "Terrain",
+            "value": "Terrain"
+          },
+          {
+            "label": "Parking",
+            "value": "Parking"
+          },
+          {
+            "label": "Autre",
+            "value": "Autre"
+          }
+        ]
+      },
+      {
+        "key": "Surface",
+        "type": "Input",
+        "label": "Surface habitable",
+        "placeholder": "m2",
+        "required": true
+      },
+      {
+        "key": "Piece",
+        "type": "Input",
+        "label": "Nombre de pièce",
+        "placeholder": "pièce(s)",
+        "required": true
+      },
+      {
+        "key": "ClasseEnergie",
+        "type": "Select",
+        "label": "Classe énergie",
+        "value": "A",
+        "items": [
+          {
+            "label": "A",
+            "value": "A"
+          },
+          {
+            "label": "B",
+            "value": "B"
+          },
+          {
+            "label": "C",
+            "value": "C"
+          },
+          {
+            "label": "D",
+            "value": "D"
+          },
+          {
+            "label": "E",
+            "value": "E"
+          },
+          {
+            "label": "F",
+            "value": "F"
+          },
+          {
+            "label": "G",
+            "value": "G"
+          },
+          {
+            "label": "H",
+            "value": "H"
+          },
+          {
+            "label": "VIERGE",
+            "value": "VIERGE"
+          }
+        ]
+      },
+      {
+        "key": "GES",
+        "type": "Select",
+        "label": "GES",
+        "value": "A",
+        "items": [
+          {
+            "label": "A",
+            "value": "A"
+          },
+          {
+            "label": "B",
+            "value": "B"
+          },
+          {
+            "label": "C",
+            "value": "C"
+          },
+          {
+            "label": "D",
+            "value": "D"
+          },
+          {
+            "label": "E",
+            "value": "E"
+          },
+          {
+            "label": "F",
+            "value": "F"
+          },
+          {
+            "label": "G",
+            "value": "G"
+          },
+          {
+            "label": "H",
+            "value": "H"
+          },
+          {
+            "label": "VIERGE",
+            "value": "VIERGE"
+          }
+        ]
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      },
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description de l'annonce",
+        "placeholder": "Description",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "id_parent_class": 12,
+    "label": "Locations",
+    "channel": "locations",
+    "fields": [
+      {
+        "key": "Meuble",
+        "type": "Select",
+        "label": "Ce bien est",
+        "value": "Meublé",
+        "items": [
+          {
+            "label": "Meublé",
+            "value": "Meublé"
+          },
+          {
+            "label": "Non meublé",
+            "value": "Non meublé"
+          }
+        ]
+      },
+      {
+        "key": "Surface",
+        "type": "Input",
+        "label": "Surface habitable",
+        "placeholder": "m2",
+        "required": true
+      },
+      {
+        "key": "Piece",
+        "type": "Input",
+        "label": "Nombre de pièce",
+        "placeholder": "pièce(s)",
+        "required": true
+      },
+      {
+        "key": "ClasseEnergie",
+        "type": "Select",
+        "label": "Classe énergie",
+        "value": "A",
+        "items": [
+          {
+            "label": "A",
+            "value": "A"
+          },
+          {
+            "label": "B",
+            "value": "B"
+          },
+          {
+            "label": "C",
+            "value": "C"
+          },
+          {
+            "label": "D",
+            "value": "D"
+          },
+          {
+            "label": "E",
+            "value": "E"
+          },
+          {
+            "label": "F",
+            "value": "F"
+          },
+          {
+            "label": "G",
+            "value": "G"
+          },
+          {
+            "label": "H",
+            "value": "H"
+          },
+          {
+            "label": "VIERGE",
+            "value": "VIERGE"
+          }
+        ]
+      },
+      {
+        "key": "GES",
+        "type": "Select",
+        "label": "GES",
+        "value": "A",
+        "items": [
+          {
+            "label": "A",
+            "value": "A"
+          },
+          {
+            "label": "B",
+            "value": "B"
+          },
+          {
+            "label": "C",
+            "value": "C"
+          },
+          {
+            "label": "D",
+            "value": "D"
+          },
+          {
+            "label": "E",
+            "value": "E"
+          },
+          {
+            "label": "F",
+            "value": "F"
+          },
+          {
+            "label": "G",
+            "value": "G"
+          },
+          {
+            "label": "H",
+            "value": "H"
+          },
+          {
+            "label": "VIERGE",
+            "value": "VIERGE"
+          }
+        ]
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      },
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description de l'annonce",
+        "placeholder": "Description",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "id_parent_class": 12,
+    "label": "Colocations",
+    "channel": "colocations",
+    "fields": [
+      {
+        "key": "Surface",
+        "type": "Input",
+        "label": "Surface habitable",
+        "placeholder": "m2",
+        "required": true
+      },
+      {
+        "key": "Piece",
+        "type": "Input",
+        "label": "Nombre de pièce",
+        "placeholder": "pièce(s)",
+        "required": true
+      },
+      {
+        "key": "ClasseEnergie",
+        "type": "Select",
+        "label": "Classe énergie",
+        "value": "A",
+        "items": [
+          {
+            "label": "A",
+            "value": "A"
+          },
+          {
+            "label": "B",
+            "value": "B"
+          },
+          {
+            "label": "C",
+            "value": "C"
+          },
+          {
+            "label": "D",
+            "value": "D"
+          },
+          {
+            "label": "E",
+            "value": "E"
+          },
+          {
+            "label": "F",
+            "value": "F"
+          },
+          {
+            "label": "G",
+            "value": "G"
+          },
+          {
+            "label": "H",
+            "value": "H"
+          },
+          {
+            "label": "VIERGE",
+            "value": "VIERGE"
+          }
+        ]
+      },
+      {
+        "key": "GES",
+        "type": "Select",
+        "label": "GES",
+        "value": "A",
+        "items": [
+          {
+            "label": "A",
+            "value": "A"
+          },
+          {
+            "label": "B",
+            "value": "B"
+          },
+          {
+            "label": "C",
+            "value": "C"
+          },
+          {
+            "label": "D",
+            "value": "D"
+          },
+          {
+            "label": "E",
+            "value": "E"
+          },
+          {
+            "label": "F",
+            "value": "F"
+          },
+          {
+            "label": "G",
+            "value": "G"
+          },
+          {
+            "label": "H",
+            "value": "H"
+          },
+          {
+            "label": "VIERGE",
+            "value": "VIERGE"
+          }
+        ]
+      },
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description de l'annonce",
+        "placeholder": "Description",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "id_parent_class": 12,
+    "label": "Bureaux & Commerces",
+    "channel": "bureaux_commerces",
+    "fields": [
+      {
+        "key": "Surface",
+        "type": "Input",
+        "label": "Surface habitable",
+        "placeholder": "m2",
+        "required": true
+      },
+      {
+        "key": "ClasseEnergie",
+        "type": "Select",
+        "label": "Classe énergie",
+        "value": "A",
+        "items": [
+          {
+            "label": "A",
+            "value": "A"
+          },
+          {
+            "label": "B",
+            "value": "B"
+          },
+          {
+            "label": "C",
+            "value": "C"
+          },
+          {
+            "label": "D",
+            "value": "D"
+          },
+          {
+            "label": "E",
+            "value": "E"
+          },
+          {
+            "label": "F",
+            "value": "F"
+          },
+          {
+            "label": "G",
+            "value": "G"
+          },
+          {
+            "label": "H",
+            "value": "H"
+          },
+          {
+            "label": "VIERGE",
+            "value": "VIERGE"
+          }
+        ]
+      },
+      {
+        "key": "GES",
+        "type": "Select",
+        "label": "GES",
+        "Value": "A",
+        "Items": [
+          {
+            "label": "A",
+            "value": "A"
+          },
+          {
+            "label": "B",
+            "value": "B"
+          },
+          {
+            "label": "C",
+            "value": "C"
+          },
+          {
+            "label": "D",
+            "value": "D"
+          },
+          {
+            "label": "E",
+            "value": "E"
+          },
+          {
+            "label": "F",
+            "value": "F"
+          },
+          {
+            "label": "G",
+            "value": "G"
+          },
+          {
+            "label": "H",
+            "value": "H"
+          },
+          {
+            "label": "VIERGE",
+            "value": "VIERGE"
+          }
+        ]
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      },
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description de l'annonce",
+        "placeholder": "Description",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "id_parent_class": 17,
+    "label": "Locations & Gîtes",
+    "channel": "locations_gites",
+    "fields": [
+      {
+        "key": "TypeResidence",
+        "type": "Select",
+        "label": "Type de résidence",
+        "value": "Secondaire",
+        "items": [
+          {
+            "label": "Secondaire",
+            "value": "Secondaire"
+          },
+          {
+            "label": "Principale",
+            "value": "Principale"
+          },
+          {
+            "label": "Non résidentiel",
+            "value": "Non résidentiel"
+          }
+        ]
+      },
+      {
+        "key": "TypeHebergement",
+        "type": "Select",
+        "label": "Type d'hébergement",
+        "value": "Appartement",
+        "items": [
+          {
+            "label": "Appartement",
+            "value": "Appartement"
+          },
+          {
+            "label": "Chalet",
+            "value": "Chalet"
+          },
+          {
+            "label": "Chambre",
+            "value": "Chambre"
+          },
+          {
+            "label": "Château",
+            "value": "Château"
+          },
+          {
+            "label": "Ferme",
+            "value": "Ferme"
+          }
+        ]
+      },
+      {
+        "key": "Classement",
+        "type": "Input",
+        "label": "Classement officiel",
+        "placeholder": "Nombre d'étoiles",
+        "required": true
+      },
+      {
+        "key": "Capacite",
+        "type": "Input",
+        "label": "Capacité",
+        "placeholder": "Nombre de personnes",
+        "required": true
+      },
+      {
+        "key": "Chambre",
+        "type": "Input",
+        "label": "Nombre de chambres",
+        "placeholder": "nombre de chambre",
+        "required": true
+      },
+      {
+        "key": "HoraireDepart",
+        "type": "Select",
+        "label": "Horaire de départ",
+        "value": "08:00",
+        "items": [
+          {
+            "label": "08:00",
+            "value": "08:00"
+          },
+          {
+            "label": "09:00",
+            "value": "09:00"
+          },
+          {
+            "label": "10:00",
+            "value": "10:00"
+          },
+          {
+            "label": "11:00",
+            "value": "11:00"
+          },
+          {
+            "label": "12:00",
+            "value": "12:00"
+          },
+          {
+            "label": "13:00",
+            "value": "13:00"
+          },
+          {
+            "label": "14:00",
+            "value": "14:00"
+          },
+          {
+            "label": "15:00",
+            "value": "15:00"
+          },
+          {
+            "label": "16:00",
+            "value": "16:00"
+          },
+          {
+            "label": "17:00 ",
+            "value": "17:00 "
+          },
+          {
+            "label": "18:00",
+            "value": "18:00"
+          },
+          {
+            "label": "19:00",
+            "value": "19:00"
+          },
+          {
+            "label": "20:00",
+            "value": "20:00"
+          },
+          {
+            "label": "21:00",
+            "value": "21:00"
+          },
+          {
+            "label": "22:00",
+            "value": "22:00"
+          },
+          {
+            "label": "23:00",
+            "value": "23:00"
+          }
+        ]
+      },
+      {
+        "key": "HoraireArrivee",
+        "type": "Select",
+        "label": "Horaire d'arrivée",
+        "value": "08:00",
+        "items": [
+          {
+            "label": "08:00",
+            "value": "08:00"
+          },
+          {
+            "label": "09:00",
+            "value": "09:00"
+          },
+          {
+            "label": "10:00",
+            "value": "10:00"
+          },
+          {
+            "label": "11:00",
+            "value": "11:00"
+          },
+          {
+            "label": "12:00",
+            "value": "12:00"
+          },
+          {
+            "label": "13:00",
+            "value": "13:00"
+          },
+          {
+            "label": "14:00",
+            "value": "14:00"
+          },
+          {
+            "label": "15:00",
+            "value": "15:00"
+          },
+          {
+            "label": "16:00",
+            "value": "16:00"
+          },
+          {
+            "label": "17:00",
+            "value": "17:00"
+          },
+          {
+            "label": "18:00",
+            "value": "18:00"
+          },
+          {
+            "label": "19:00",
+            "value": "19:00"
+          },
+          {
+            "label": "20:00",
+            "value": "20:00"
+          },
+          {
+            "label": "21:00",
+            "value": "21:00"
+          },
+          {
+            "label": "22:00",
+            "value": "22:00"
+          },
+          {
+            "label": "23:00",
+            "value": "23:00"
+          }
+        ]
+      },
+      {
+        "key": "switch",
+        "type": "Switch",
+        "label": "Location avec piscine",
+        "value": false
+      },
+      {
+        "key": "switch",
+        "type": "Switch",
+        "label": "animaux acceptées",
+        "value": false
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      },
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description de l'annonce",
+        "placeholder": "Description",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "id_parent_class": 17,
+    "label": "Chambres d'hôtes",
+    "channel": "chambres_d_hotes",
+    "fields": [
+      {
+        "key": "Capacite",
+        "type": "Select",
+        "label": "Capacité",
+        "value": "1 personne",
+        "items": [
+          {
+            "label": "1 personne",
+            "value": "1 personne"
+          },
+          {
+            "label": "2 personne",
+            "value": "2 personne"
+          },
+          {
+            "label": "3 personne",
+            "value": "3 personne"
+          },
+          {
+            "label": "4 personne",
+            "value": "4 personne"
+          },
+          {
+            "label": "5 personne",
+            "value": "5 personne"
+          },
+          {
+            "label": "6 personne",
+            "value": "6 personne"
+          },
+          {
+            "label": "7 personne",
+            "value": "7 personne"
+          },
+          {
+            "label": "8 personne",
+            "value": "8 personne"
+          },
+          {
+            "label": "9 personne",
+            "value": "9 personne"
+          },
+          {
+            "label": "10 personne et plus",
+            "value": "10 personne et plus"
+          }
+        ]
+      },
+      {
+        "key": "Chambre",
+        "type": "Select",
+        "label": "Nombre de chambres",
+        "value": "1 ",
+        "items": [
+          {
+            "label": "1 ",
+            "value": "1 "
+          },
+          {
+            "label": "2 ",
+            "value": "2 "
+          },
+          {
+            "label": "3 ",
+            "value": "3 "
+          },
+          {
+            "label": "4 ",
+            "value": "4 "
+          },
+          {
+            "label": "5 ",
+            "value": "5 "
+          },
+          {
+            "label": "6 ",
+            "value": "6 "
+          },
+          {
+            "label": "7 ",
+            "value": "7 "
+          },
+          {
+            "label": "8 et plus",
+            "value": "8 et plus"
+          },
+          {
+            "label": "9 personne",
+            "value": "9 personne"
+          }
+        ]
+      },
+      {
+        "key": "HoraireDepart",
+        "type": "Select",
+        "label": "Horaire de départ",
+        "value": "08:00",
+        "items": [
+          {
+            "label": "08:00",
+            "value": "08:00"
+          },
+          {
+            "label": "09:00",
+            "value": "09:00"
+          },
+          {
+            "label": "10:00",
+            "value": "10:00"
+          },
+          {
+            "label": "11:00",
+            "value": "11:00"
+          },
+          {
+            "label": "12:00",
+            "value": "12:00"
+          },
+          {
+            "label": "13:00",
+            "value": "13:00"
+          },
+          {
+            "label": "14:00",
+            "value": "14:00"
+          },
+          {
+            "label": "15:00",
+            "value": "15:00"
+          },
+          {
+            "label": "16:00",
+            "value": "16:00"
+          },
+          {
+            "label": "17:00 ",
+            "value": "17:00 "
+          },
+          {
+            "label": "18:00",
+            "value": "18:00"
+          },
+          {
+            "label": "19:00",
+            "value": "19:00"
+          },
+          {
+            "label": "20:00",
+            "value": "20:00"
+          },
+          {
+            "label": "21:00",
+            "value": "21:00"
+          },
+          {
+            "label": "22:00",
+            "value": "22:00"
+          },
+          {
+            "label": "23:00",
+            "value": "23:00"
+          }
+        ]
+      },
+      {
+        "key": "HoraireArrivee",
+        "type": "Select",
+        "label": "Horaire d'arrivée",
+        "value": "08:00",
+        "items": [
+          {
+            "label": "08:00",
+            "value": "08:00"
+          },
+          {
+            "label": "09:00",
+            "value": "09:00"
+          },
+          {
+            "label": "10:00",
+            "value": "10:00"
+          },
+          {
+            "label": "11:00",
+            "value": "11:00"
+          },
+          {
+            "label": "12:00",
+            "value": "12:00"
+          },
+          {
+            "label": "13:00",
+            "value": "13:00"
+          },
+          {
+            "label": "14:00",
+            "value": "14:00"
+          },
+          {
+            "label": "15:00",
+            "value": "15:00"
+          },
+          {
+            "label": "16:00",
+            "value": "16:00"
+          },
+          {
+            "label": "17:00",
+            "value": "17:00"
+          },
+          {
+            "label": "18:00",
+            "value": "18:00"
+          },
+          {
+            "label": "19:00",
+            "value": "19:00"
+          },
+          {
+            "label": "20:00",
+            "value": "20:00"
+          },
+          {
+            "label": "21:00",
+            "value": "21:00"
+          },
+          {
+            "label": "22:00",
+            "value": "22:00"
+          },
+          {
+            "label": "23:00",
+            "value": "23:00"
+          }
+        ]
+      },
+      {
+        "key": "switch",
+        "type": "Switch",
+        "label": "Location avec piscine",
+        "value": false
+      },
+      {
+        "key": "switch",
+        "type": "Switch",
+        "label": "animaux acceptées",
+        "value": false
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      },
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description de l'annonce",
+        "placeholder": "Description",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "id_parent_class": 17,
+    "label": "Campings",
+    "channel": "campings",
+    "fields": [
+      {
+        "key": "TypeHebergement",
+        "type": "Select",
+        "label": "Type dhébergement",
+        "value": "Appartement",
+        "items": [
+          {
+            "label": "Appartement",
+            "value": "Appartement"
+          },
+          {
+            "label": "Chalet",
+            "value": "Chalet"
+          },
+          {
+            "label": "Chambre",
+            "value": "Chambre"
+          },
+          {
+            "label": "Château",
+            "value": "Château"
+          },
+          {
+            "label": "Ferme",
+            "value": "Ferme"
+          }
+        ]
+      },
+      {
+        "key": "Capacite",
+        "type": "Select",
+        "label": "Capacité",
+        "value": "1 personne",
+        "items": [
+          {
+            "label": "1 personne",
+            "value": "1 personne"
+          },
+          {
+            "label": "2 personne",
+            "value": "2 personne"
+          },
+          {
+            "label": "3 personne",
+            "value": "3 personne"
+          },
+          {
+            "label": "4 personne",
+            "value": "4 personne"
+          },
+          {
+            "label": "5 personne",
+            "value": "5 personne"
+          },
+          {
+            "label": "6 personne",
+            "value": "6 personne"
+          },
+          {
+            "label": "7 personne",
+            "value": "7 personne"
+          },
+          {
+            "label": "8 personne",
+            "value": "8 personne"
+          },
+          {
+            "label": "9 personne",
+            "value": "9 personne"
+          },
+          {
+            "label": "10 personne et plus",
+            "value": "10 personne et plus"
+          }
+        ]
+      },
+      {
+        "key": "Chambre",
+        "type": "Select",
+        "label": "Nombre de chambres",
+        "value": "1 ",
+        "items": [
+          {
+            "label": "1 ",
+            "value": "1 "
+          },
+          {
+            "label": "2 ",
+            "value": "2 "
+          },
+          {
+            "label": "3 ",
+            "value": "3 "
+          },
+          {
+            "label": "4 ",
+            "value": "4 "
+          },
+          {
+            "label": "5 ",
+            "value": "5 "
+          },
+          {
+            "label": "6 ",
+            "value": "6 "
+          },
+          {
+            "label": "7 ",
+            "value": "7 "
+          },
+          {
+            "label": "8 et plus",
+            "value": "8 et plus"
+          },
+          {
+            "label": "9 personne",
+            "value": "9 personne"
+          }
+        ]
+      },
+      {
+        "key": "HoraireDepart",
+        "type": "Select",
+        "label": "Horaire de départ",
+        "value": "08:00",
+        "items": [
+          {
+            "label": "08:00",
+            "value": "08:00"
+          },
+          {
+            "label": "09:00",
+            "value": "09:00"
+          },
+          {
+            "label": "10:00",
+            "value": "10:00"
+          },
+          {
+            "label": "11:00",
+            "value": "11:00"
+          },
+          {
+            "label": "12:00",
+            "value": "12:00"
+          },
+          {
+            "label": "13:00",
+            "value": "13:00"
+          },
+          {
+            "label": "14:00",
+            "value": "14:00"
+          },
+          {
+            "label": "15:00",
+            "value": "15:00"
+          },
+          {
+            "label": "16:00",
+            "value": "16:00"
+          },
+          {
+            "label": "17:00 ",
+            "value": "17:00 "
+          },
+          {
+            "label": "18:00",
+            "value": "18:00"
+          },
+          {
+            "label": "19:00",
+            "value": "19:00"
+          },
+          {
+            "label": "20:00",
+            "value": "20:00"
+          },
+          {
+            "label": "21:00",
+            "value": "21:00"
+          },
+          {
+            "label": "22:00",
+            "value": "22:00"
+          },
+          {
+            "label": "23:00",
+            "value": "23:00"
+          }
+        ]
+      },
+      {
+        "key": "HoraireArrivee",
+        "type": "Select",
+        "label": "Horaire d'arrivée",
+        "value": "08:00",
+        "items": [
+          {
+            "label": "08:00",
+            "value": "08:00"
+          },
+          {
+            "label": "09:00",
+            "value": "09:00"
+          },
+          {
+            "label": "10:00",
+            "value": "10:00"
+          },
+          {
+            "label": "11:00",
+            "value": "11:00"
+          },
+          {
+            "label": "12:00",
+            "value": "12:00"
+          },
+          {
+            "label": "13:00",
+            "value": "13:00"
+          },
+          {
+            "label": "14:00",
+            "value": "14:00"
+          },
+          {
+            "label": "15:00",
+            "value": "15:00"
+          },
+          {
+            "label": "16:00",
+            "value": "16:00"
+          },
+          {
+            "label": "17:00",
+            "value": "17:00"
+          },
+          {
+            "label": "18:00",
+            "value": "18:00"
+          },
+          {
+            "label": "19:00",
+            "value": "19:00"
+          },
+          {
+            "label": "20:00",
+            "value": "20:00"
+          },
+          {
+            "label": "21:00",
+            "value": "21:00"
+          },
+          {
+            "label": "22:00",
+            "value": "22:00"
+          },
+          {
+            "label": "23:00",
+            "value": "23:00"
+          }
+        ]
+      },
+      {
+        "key": "switch",
+        "type": "Switch",
+        "label": "Location avec piscine",
+        "value": false
+      },
+      {
+        "key": "switch",
+        "type": "Switch",
+        "label": "animaux acceptées",
+        "value": false
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      },
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description de l'annonce",
+        "placeholder": "Description",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "id_parent_class": 17,
+    "label": "Hébergements insolites",
+    "channel": "hebergements_insolites",
+    "fields": [
+      {
+        "key": "TypeHebergement",
+        "type": "Select",
+        "label": "Type dhébergement",
+        "value": "Appartement",
+        "items": [
+          {
+            "label": "Appartement",
+            "value": "Appartement"
+          },
+          {
+            "label": "Chalet",
+            "value": "Chalet"
+          },
+          {
+            "label": "Chambre",
+            "value": "Chambre"
+          },
+          {
+            "label": "Château",
+            "value": "Château"
+          },
+          {
+            "label": "Ferme",
+            "value": "Ferme"
+          }
+        ]
+      },
+      {
+        "key": "Capacite",
+        "type": "Select",
+        "label": "Capacité",
+        "value": "1 personne",
+        "items": [
+          {
+            "label": "1 personne",
+            "value": "1 personne"
+          },
+          {
+            "label": "2 personne",
+            "value": "2 personne"
+          },
+          {
+            "label": "3 personne",
+            "value": "3 personne"
+          },
+          {
+            "label": "4 personne",
+            "value": "4 personne"
+          },
+          {
+            "label": "5 personne",
+            "value": "5 personne"
+          },
+          {
+            "label": "6 personne",
+            "value": "6 personne"
+          },
+          {
+            "label": "7 personne",
+            "value": "7 personne"
+          },
+          {
+            "label": "8 personne",
+            "value": "8 personne"
+          },
+          {
+            "label": "9 personne",
+            "value": "9 personne"
+          },
+          {
+            "label": "10 personne et plus",
+            "value": "10 personne et plus"
+          }
+        ]
+      },
+      {
+        "key": "Chambre",
+        "type": "Select",
+        "label": "Nombre de chambres",
+        "value": "1 ",
+        "items": [
+          {
+            "label": "1 ",
+            "value": "1 "
+          },
+          {
+            "label": "2 ",
+            "value": "2 "
+          },
+          {
+            "label": "3 ",
+            "value": "3 "
+          },
+          {
+            "label": "4 ",
+            "value": "4 "
+          },
+          {
+            "label": "5 ",
+            "value": "5 "
+          },
+          {
+            "label": "6 ",
+            "value": "6 "
+          },
+          {
+            "label": "7 ",
+            "value": "7 "
+          },
+          {
+            "label": "8 et plus",
+            "value": "8 et plus"
+          },
+          {
+            "label": "9 personne",
+            "value": "9 personne"
+          }
+        ]
+      },
+      {
+        "key": "HoraireDepart",
+        "type": "Select",
+        "label": "Horaire de départ",
+        "value": "08:00",
+        "items": [
+          {
+            "label": "08:00",
+            "value": "08:00"
+          },
+          {
+            "label": "09:00",
+            "value": "09:00"
+          },
+          {
+            "label": "10:00",
+            "value": "10:00"
+          },
+          {
+            "label": "11:00",
+            "value": "11:00"
+          },
+          {
+            "label": "12:00",
+            "value": "12:00"
+          },
+          {
+            "label": "13:00",
+            "value": "13:00"
+          },
+          {
+            "label": "14:00",
+            "value": "14:00"
+          },
+          {
+            "label": "15:00",
+            "value": "15:00"
+          },
+          {
+            "label": "16:00",
+            "value": "16:00"
+          },
+          {
+            "label": "17:00 ",
+            "value": "17:00 "
+          },
+          {
+            "label": "18:00",
+            "value": "18:00"
+          },
+          {
+            "label": "19:00",
+            "value": "19:00"
+          },
+          {
+            "label": "20:00",
+            "value": "20:00"
+          },
+          {
+            "label": "21:00",
+            "value": "21:00"
+          },
+          {
+            "label": "22:00",
+            "value": "22:00"
+          },
+          {
+            "label": "23:00",
+            "value": "23:00"
+          }
+        ]
+      },
+      {
+        "key": "HoraireArrivee",
+        "type": "Select",
+        "label": "Horaire d'arrivée",
+        "value": "08:00",
+        "items": [
+          {
+            "label": "08:00",
+            "value": "08:00"
+          },
+          {
+            "label": "09:00",
+            "value": "09:00"
+          },
+          {
+            "label": "10:00",
+            "value": "10:00"
+          },
+          {
+            "label": "11:00",
+            "value": "11:00"
+          },
+          {
+            "label": "12:00",
+            "value": "12:00"
+          },
+          {
+            "label": "13:00",
+            "value": "13:00"
+          },
+          {
+            "label": "14:00",
+            "value": "14:00"
+          },
+          {
+            "label": "15:00",
+            "value": "15:00"
+          },
+          {
+            "label": "16:00",
+            "value": "16:00"
+          },
+          {
+            "label": "17:00",
+            "value": "17:00"
+          },
+          {
+            "label": "18:00",
+            "value": "18:00"
+          },
+          {
+            "label": "19:00",
+            "value": "19:00"
+          },
+          {
+            "label": "20:00",
+            "value": "20:00"
+          },
+          {
+            "label": "21:00",
+            "value": "21:00"
+          },
+          {
+            "label": "22:00",
+            "value": "22:00"
+          },
+          {
+            "label": "23:00",
+            "value": "23:00"
+          }
+        ]
+      },
+      {
+        "key": "switch",
+        "type": "Switch",
+        "label": "Location avec piscine",
+        "value": false
+      },
+      {
+        "key": "switch",
+        "type": "Switch",
+        "label": "animaux acceptées",
+        "value": false
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      },
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description de l'annonce",
+        "placeholder": "Description",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "id_parent_class": 22,
+    "label": "Informatique",
+    "channel": "informatique",
+    "fields": [
+      {
+        "key": "Etat",
+        "type": "Select",
+        "label": "Type Etat",
+        "value": "Etat neuf",
+        "items": [
+          {
+            "label": "Etat neuf",
+            "value": "Etat neuf"
+          },
+          {
+            "label": "Très bon état",
+            "value": "Très bon état"
+          },
+          {
+            "label": "Bon état",
+            "value": "Bon état"
+          },
+          {
+            "label": "Etat satisfaisant",
+            "value": "Etat satisfaisant"
+          },
+          {
+            "label": "Pour pièce",
+            "value": "Pour pièce"
+          }
+        ]
+      },
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description  de l'annonce",
+        "placeholder": "Description de l'annonce",
+        "required": true
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "id_parent_class": 22,
+    "label": "Consoles & Jeux vidéo",
+    "channel": "consoles_jeux_video",
+    "fields": [
+      {
+        "key": "Type",
+        "type": "Select",
+        "label": "Type",
+        "value": "Console",
+        "items": [
+          {
+            "label": "Console",
+            "value": "Console"
+          },
+          {
+            "label": "Jeux",
+            "value": "Jeux"
+          },
+          {
+            "label": "Accessoires",
+            "value": "Accessoires"
+          }
+        ]
+      },
+      {
+        "key": "Etat",
+        "type": "Select",
+        "label": "Type Etat",
+        "value": "Etat neuf",
+        "items": [
+          {
+            "label": "Etat neuf",
+            "value": "Etat neuf"
+          },
+          {
+            "label": "Très bon état",
+            "value": "Très bon état"
+          },
+          {
+            "label": "Bon état",
+            "value": "Bon état"
+          },
+          {
+            "label": "Etat satisfaisant",
+            "value": "Etat satisfaisant"
+          },
+          {
+            "label": "Pour pièce",
+            "value": "Pour pièce"
+          }
+        ]
+      },
+      {
+        "key": "Marque",
+        "type": "Select",
+        "label": "Marque",
+        "value": "Sony",
+        "items": [
+          {
+            "label": "Sony",
+            "value": "Sony"
+          },
+          {
+            "label": "Nitendo",
+            "value": "Nitendo"
+          },
+          {
+            "label": "Microsoft",
+            "value": "Microsoft"
+          },
+          {
+            "label": "Sega",
+            "value": "Sega"
+          },
+          {
+            "label": "Neo-Geo AES",
+            "value": "Neo-Geo AES"
+          },
+          {
+            "label": "Amiga",
+            "value": "Amiga"
+          },
+          {
+            "label": "Atari",
+            "value": "Atari"
+          },
+          {
+            "label": "Amstrad",
+            "value": "Amstrad"
+          },
+          {
+            "label": "Nokia",
+            "value": "Nokia"
+          },
+          {
+            "label": "Retrogaming",
+            "value": "Retrogaming"
+          },
+          {
+            "label": "Autre",
+            "value": "Autre"
+          }
+        ]
+      },
+      {
+        "key": "Modele",
+        "type": "Input",
+        "label": "Modèle",
+        "placeholder": "",
+        "required": true
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      },
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description de l'annonce",
+        "placeholder": "Description",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "id_parent_class": 22,
+    "label": "Image & Son",
+    "channel": "image_son",
+    "fields": [
+      {
+        "key": "Etat",
+        "type": "Select",
+        "label": "Type Etat",
+        "value": "Etat neuf",
+        "items": [
+          {
+            "label": "Etat neuf",
+            "value": "Etat neuf"
+          },
+          {
+            "label": "Très bon état",
+            "value": "Très bon état"
+          },
+          {
+            "label": "Bon état",
+            "value": "Bon état"
+          },
+          {
+            "label": "Etat satisfaisant",
+            "value": "Etat satisfaisant"
+          },
+          {
+            "label": "Pour pièce",
+            "value": "Pour pièce"
+          }
+        ]
+      },
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description  de l'annonce",
+        "placeholder": "Description de l'annonce",
+        "required": true
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "id_parent_class": 22,
+    "label": "Téléphonie",
+    "channel": "telephonie",
+    "fields": [
+      {
+        "key": "Marque",
+        "type": "Input",
+        "label": "Marque",
+        "placeholder": "",
+        "required": true
+      },
+      {
+        "key": "Modele",
+        "type": "Input",
+        "label": "Modèle",
+        "placeholder": "",
+        "required": true
+      },
+      {
+        "key": "Couleur",
+        "type": "Input",
+        "label": "Couleur",
+        "placeholder": "Couleur",
+        "required": true
+      },
+      {
+        "key": "Stockage",
+        "type": "Input",
+        "label": "Capacité de stockage",
+        "placeholder": "Go",
+        "required": true
+      },
+      {
+        "key": "Etat",
+        "type": "Select",
+        "label": "Type Etat",
+        "value": "Etat neuf",
+        "items": [
+          {
+            "label": "Etat neuf",
+            "value": "Etat neuf"
+          },
+          {
+            "label": "Très bon état",
+            "value": "Très bon état"
+          },
+          {
+            "label": "Bon état",
+            "value": "Bon état"
+          },
+          {
+            "label": "Etat satisfaisant",
+            "value": "Etat satisfaisant"
+          }
+        ]
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      },
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description de l'annonce",
+        "placeholder": "Description",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "id_parent_class": 27,
+    "label": "Ameublement",
+    "channel": "ameublement",
+    "fields": [
+      {
+        "key": "Type",
+        "type": "Input",
+        "label": "Type",
+        "placeholder": "",
+        "required": true
+      },
+      {
+        "key": "Matiere",
+        "type": "Input",
+        "label": "Matière",
+        "placeholder": "",
+        "required": true
+      },
+      {
+        "key": "Couleur",
+        "type": "Input",
+        "label": "Couleur",
+        "placeholder": "Couleur",
+        "required": true
+      },
+      {
+        "key": "Etat",
+        "type": "Select",
+        "label": "Type Etat",
+        "value": "Etat neuf",
+        "items": [
+          {
+            "label": "Etat neuf",
+            "value": "Etat neuf"
+          },
+          {
+            "label": "Très bon état",
+            "value": "Très bon état"
+          },
+          {
+            "label": "Bon état",
+            "value": "Bon état"
+          },
+          {
+            "label": "Etat satisfaisant",
+            "value": "Etat satisfaisant"
+          },
+          {
+            "label": "Pour pièce",
+            "value": "Pour pièce"
+          }
+        ]
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      },
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description de l'annonce",
+        "placeholder": "Description",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "id_parent_class": 27,
+    "label": "Electroménager",
+    "channel": "electromenager",
+    "fields": [
+      {
+        "key": "Etat",
+        "type": "Select",
+        "label": "Type Etat",
+        "value": "Etat neuf",
+        "items": [
+          {
+            "label": "Etat neuf",
+            "value": "Etat neuf"
+          },
+          {
+            "label": "Très bon état",
+            "value": "Très bon état"
+          },
+          {
+            "label": "Bon état",
+            "value": "Bon état"
+          },
+          {
+            "label": "Etat satisfaisant",
+            "value": "Etat satisfaisant"
+          },
+          {
+            "label": "Pour pièce",
+            "value": "Pour pièce"
+          }
+        ]
+      },
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description  de l'annonce",
+        "placeholder": "Description de l'annonce",
+        "required": true
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "id_parent_class": 27,
+    "label": "Arts de la table",
+    "channel": "arts_de_la_table",
+    "fields": [
+      {
+        "key": "Etat",
+        "type": "Select",
+        "label": "Type Etat",
+        "value": "Etat neuf",
+        "items": [
+          {
+            "label": "Etat neuf",
+            "value": "Etat neuf"
+          },
+          {
+            "label": "Très bon état",
+            "value": "Très bon état"
+          },
+          {
+            "label": "Bon état",
+            "value": "Bon état"
+          },
+          {
+            "label": "Etat satisfaisant",
+            "value": "Etat satisfaisant"
+          },
+          {
+            "label": "Pour pièce",
+            "value": "Pour pièce"
+          }
+        ]
+      },
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description  de l'annonce",
+        "placeholder": "Description de l'annonce",
+        "required": true
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "id_parent_class": 27,
+    "label": "Décoration",
+    "channel": "decoration",
+    "fields": [
+      {
+        "key": "Etat",
+        "type": "Select",
+        "label": "Type Etat",
+        "value": "Etat neuf",
+        "items": [
+          {
+            "label": "Etat neuf",
+            "value": "Etat neuf"
+          },
+          {
+            "label": "Très bon état",
+            "value": "Très bon état"
+          },
+          {
+            "label": "Bon état",
+            "value": "Bon état"
+          },
+          {
+            "label": "Etat satisfaisant",
+            "value": "Etat satisfaisant"
+          },
+          {
+            "label": "Pour pièce",
+            "value": "Pour pièce"
+          }
+        ]
+      },
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description  de l'annonce",
+        "placeholder": "Description de l'annonce",
+        "required": true
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "id_parent_class": 27,
+    "label": "Linge de maison",
+    "channel": "linge_de_maison",
+    "fields": [
+      {
+        "key": "Etat",
+        "type": "Select",
+        "label": "Type Etat",
+        "value": "Etat neuf",
+        "items": [
+          {
+            "label": "Etat neuf",
+            "value": "Etat neuf"
+          },
+          {
+            "label": "Très bon état",
+            "value": "Très bon état"
+          },
+          {
+            "label": "Bon état",
+            "value": "Bon état"
+          },
+          {
+            "label": "Etat satisfaisant",
+            "value": "Etat satisfaisant"
+          },
+          {
+            "label": "Pour pièce",
+            "value": "Pour pièce"
+          }
+        ]
+      },
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description  de l'annonce",
+        "placeholder": "Description de l'annonce",
+        "required": true
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "id_parent_class": 27,
+    "label": "Bricolage",
+    "channel": "bricolage",
+    "fields": [
+      {
+        "key": "Etat",
+        "type": "Select",
+        "label": "Type Etat",
+        "value": "Etat neuf",
+        "items": [
+          {
+            "label": "Etat neuf",
+            "value": "Etat neuf"
+          },
+          {
+            "label": "Très bon état",
+            "value": "Très bon état"
+          },
+          {
+            "label": "Bon état",
+            "value": "Bon état"
+          },
+          {
+            "label": "Etat satisfaisant",
+            "value": "Etat satisfaisant"
+          },
+          {
+            "label": "Pour pièce",
+            "value": "Pour pièce"
+          }
+        ]
+      },
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description  de l'annonce",
+        "placeholder": "Description de l'annonce",
+        "required": true
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "id_parent_class": 27,
+    "label": "Jardinage",
+    "channel": "jardinage",
+    "fields": [
+      {
+        "key": "Etat",
+        "type": "Select",
+        "label": "Type Etat",
+        "value": "Etat neuf",
+        "items": [
+          {
+            "label": "Etat neuf",
+            "value": "Etat neuf"
+          },
+          {
+            "label": "Très bon état",
+            "value": "Très bon état"
+          },
+          {
+            "label": "Bon état",
+            "value": "Bon état"
+          },
+          {
+            "label": "Etat satisfaisant",
+            "value": "Etat satisfaisant"
+          },
+          {
+            "label": "Pour pièce",
+            "value": "Pour pièce"
+          }
+        ]
+      },
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description  de l'annonce",
+        "placeholder": "Description de l'annonce",
+        "required": true
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "id_parent_class": 35,
+    "label": "Vêtements",
+    "channel": "vetements",
+    "fields": [
+      {
+        "key": "Univers",
+        "type": "Select",
+        "label": "Univers",
+        "value": "Femme",
+        "items": [
+          {
+            "label": "Femme",
+            "value": "Femme"
+          },
+          {
+            "label": "Maternité",
+            "value": "Maternité"
+          },
+          {
+            "label": "Homme",
+            "value": "Hommet"
+          },
+          {
+            "label": "Enfant",
+            "value": "Enfant"
+          }
+        ]
+      },
+      {
+        "key": "Taille",
+        "type": "Input",
+        "label": "Taille",
+        "placeholder": "Taille",
+        "required": true
+      },
+      {
+        "key": "Type",
+        "type": "Input",
+        "type": "Type de Vêtement",
+        "Value": "Robes / jupes",
+        "items": [
+          {
+            "label": "Robes / jupes",
+            "value": "Robes / jupes"
+          },
+          {
+            "label": "Manteaux & Vestes",
+            "value": "Manteaux & Vestes"
+          },
+          {
+            "label": "Hauts / T-Shirts / Polos",
+            "value": "Hauts / T-Shirts / Polos"
+          },
+          {
+            "label": "Pantalons",
+            "value": "Pantalons"
+          },
+          {
+            "label": "Pulls / Gillets /Mailles",
+            "value": "Pulls / Gillets /Mailles"
+          },
+          {
+            "label": "Jeans",
+            "value": "Jeans"
+          },
+          {
+            "label": "Chemises / Chemisiers",
+            "value": "Chemises / Chemisiers"
+          },
+          {
+            "label": "Costumes / Tailleurs",
+            "value": "Costumes / Tailleurs"
+          },
+          {
+            "label": "Shorts / Pantacours / Bermudas",
+            "value": "Shorts / Pantacours / Bermudas"
+          },
+          {
+            "label": "Sports / Danse",
+            "value": "Sports / Danse"
+          },
+          {
+            "label": "Maillots de bain & Vêtements de plage",
+            "value": "Maillots de bain & Vêtements de plage"
+          },
+          {
+            "label": "Lingerie",
+            "value": "Lingerie"
+          },
+          {
+            "label": "Sous-vêtements & vêtements de nuit",
+            "value": "Sous-vêtements & vêtements de nuit"
+          },
+          {
+            "label": "Déguisement",
+            "value": "Déguisement"
+          },
+          {
+            "label": "Mariage",
+            "value": "Mariage"
+          },
+          {
+            "label": "Autre",
+            "value": "Autre"
+          }
+        ]
+      },
+      {
+        "key": "Marque",
+        "type": "Input",
+        "label": "Marque",
+        "placeholder": "",
+        "required": true
+      },
+      {
+        "key": "Couleur",
+        "type": "Select",
+        "label": "Couleur",
+        "value": "Argenté / Acie",
+        "items": [
+          {
+            "label": "Argenté / Acier",
+            "value": "Argenté / Acie"
+          },
+          {
+            "label": "Beige / Ciel",
+            "value": "Beige / Ciel"
+          },
+          {
+            "label": "Blanc",
+            "value": "Blanc"
+          },
+          {
+            "label": "Bleu / Ciel",
+            "value": "Bleu / Ciel"
+          },
+          {
+            "label": "Crème / Blanc cassé / Ecru",
+            "value": "Crème / Blanc cassé / Ecr"
+          },
+          {
+            "label": "Gris / Anthracite",
+            "value": "Gris / Anthracite"
+          },
+          {
+            "label": "Imprimé multicolore",
+            "value": "Imprimé multicolore"
+          },
+          {
+            "label": "Jaune / Moutarde",
+            "value": "Jaune / Moutarde"
+          },
+          {
+            "label": "Kaki",
+            "value": "Kaki"
+          },
+          {
+            "label": "Lavande / Lilas",
+            "value": "Lavande / Lilas"
+          },
+          {
+            "label": "Marine / Turquoise",
+            "value": "Marine / Turquoise"
+          },
+          {
+            "label": "Marron",
+            "value": "Marron"
+          },
+          {
+            "label": "Multicolore",
+            "value": "Multicolore"
+          },
+          {
+            "label": "Noir",
+            "value": "Noir"
+          },
+          {
+            "label": "Orange / Corail",
+            "value": "Orange / Corail"
+          },
+          {
+            "label": "Rose / Fushia",
+            "value": "Rose / Fushia"
+          },
+          {
+            "label": "Rouge / Bordeaux",
+            "value": "Rouge / Bordeaux"
+          },
+          {
+            "label": "Vert",
+            "value": "Vert"
+          },
+          {
+            "label": "Violet / Mauve",
+            "value": "Violet / Mauve"
+          },
+          {
+            "label": "Autre",
+            "value": "Autre"
+          }
+        ]
+      },
+      {
+        "key": "Etat",
+        "type": "Select",
+        "label": "Type Etat",
+        "value": "Etat neuf",
+        "items": [
+          {
+            "label": "Etat neuf",
+            "value": "Etat neuf"
+          },
+          {
+            "label": "Très bon état",
+            "value": "Très bon état"
+          },
+          {
+            "label": "Bon état",
+            "value": "Bon état"
+          },
+          {
+            "label": "Etat satisfaisant",
+            "value": "Etat satisfaisant"
+          },
+          {
+            "label": "Pour pièce",
+            "value": "Pour pièce"
+          }
+        ]
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      },
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description  de l'annonce",
+        "placeholder": "Description de l'annonce",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "id_parent_class": 35,
+    "label": "Chaussures",
+    "channel": "chaussures",
+    "fields": [
+      {
+        "key": "Univers",
+        "type": "Select",
+        "label": "Univers",
+        "value": "Femme",
+        "items": [
+          {
+            "label": "Femme",
+            "value": "Femme"
+          },
+          {
+            "label": "Homme",
+            "value": "Hommet"
+          },
+          {
+            "label": "Enfant",
+            "value": "Enfant"
+          }
+        ]
+      },
+      {
+        "key": "Type",
+        "type": "Select",
+        "label": "Type de chaussures",
+        "value": "Baskets & Sneakers",
+        "items": [
+          {
+            "label": "Baskets & Sneakers",
+            "value": "Baskets & Sneakers"
+          },
+          {
+            "label": "Chaussures à lacets",
+            "value": "Chaussures à lacets"
+          },
+          {
+            "label": "Chaussures à scratch",
+            "value": "Chaussures à scratch"
+          },
+          {
+            "label": "Mocassins",
+            "value": "Mocassins"
+          },
+          {
+            "label": "Bottines & lowboots",
+            "value": "Bottines & lowboots"
+          },
+          {
+            "label": "Bottes",
+            "value": "Bottes"
+          },
+          {
+            "label": "Escarpins",
+            "value": "Escarpins"
+          },
+          {
+            "label": "Sandales & Nu-pieds",
+            "value": "Sandales & Nu-pieds"
+          },
+          {
+            "label": "Chaussons & pantoufles",
+            "value": "Chaussons & pantoufles"
+          },
+          {
+            "label": "Ballerines",
+            "value": "Ballerines"
+          },
+          {
+            "label": "Autres",
+            "value": "Autres"
+          }
+        ]
+      },
+
+      {
+        "key": "Pointure",
+        "type": "Select",
+        "label": "Pointure",
+        "value": "16",
+        "items": [
+          {
+            "label": "16",
+            "value": "16"
+          },
+          {
+            "label": "17",
+            "value": "17"
+          },
+          {
+            "label": "18",
+            "value": "18"
+          },
+          {
+            "label": "19",
+            "value": "19"
+          },
+          {
+            "label": "20",
+            "value": "20"
+          },
+          {
+            "label": "21",
+            "value": "21"
+          },
+          {
+            "label": "22",
+            "value": "22"
+          },
+          {
+            "label": "23",
+            "value": "23"
+          },
+          {
+            "label": "24",
+            "value": "24"
+          },
+          {
+            "label": "25",
+            "value": "25"
+          },
+          {
+            "label": "26",
+            "value": "26"
+          },
+          {
+            "label": "27",
+            "value": "27"
+          },
+          {
+            "label": "28",
+            "value": "28"
+          },
+          {
+            "label": "29",
+            "value": "29"
+          },
+          {
+            "label": "30",
+            "value": "30"
+          },
+          {
+            "label": "31",
+            "value": "31"
+          },
+          {
+            "label": "32",
+            "value": "32"
+          },
+          {
+            "label": "33",
+            "value": "33"
+          },
+          {
+            "label": "34",
+            "value": "34"
+          },
+          {
+            "label": "35",
+            "value": "35"
+          },
+          {
+            "label": "36",
+            "value": "36"
+          },
+          {
+            "label": "37",
+            "value": "37"
+          },
+          {
+            "label": "38",
+            "value": "38"
+          },
+          {
+            "label": "39",
+            "value": "39"
+          },
+          {
+            "label": "40",
+            "value": "40"
+          },
+          {
+            "label": "41",
+            "value": "41"
+          },
+          {
+            "label": "42",
+            "value": "42"
+          },
+          {
+            "label": "43",
+            "value": "43"
+          },
+          {
+            "label": "44",
+            "value": "44"
+          },
+          {
+            "label": "45",
+            "value": "45"
+          },
+          {
+            "label": "46",
+            "value": "46"
+          },
+          {
+            "label": "47",
+            "value": "47"
+          },
+          {
+            "label": "48",
+            "value": "48"
+          },
+          {
+            "label": "49",
+            "value": "49"
+          },
+          {
+            "label": "50 et plus",
+            "value": "50 et plus"
+          }
+        ]
+      },
+      {
+        "key": "Marque",
+        "type": "Select",
+        "label": "Marque",
+        "value": "Adidas",
+        "items": [
+          {
+            "label": "Adidas",
+            "value": "Adidas"
+          },
+          {
+            "label": "Aigle",
+            "value": "Aigle"
+          },
+          {
+            "label": "Andre",
+            "value": "Andre"
+          },
+          {
+            "label": "Artengo",
+            "value": "Artengo"
+          },
+          {
+            "label": "Ash",
+            "value": "Ash"
+          },
+          {
+            "label": "Asics",
+            "value": "Asics"
+          },
+          {
+            "label": "Azzaro",
+            "value": "Azzaro"
+          },
+          {
+            "label": "Balenciaga",
+            "value": "Balenciaga"
+          },
+          {
+            "label": "Barker",
+            "value": "Barker"
+          },
+          {
+            "label": "Bensimon",
+            "value": "Bensimon"
+          },
+          {
+            "label": "Bexley",
+            "value": "Bexley"
+          },
+          {
+            "label": "Calvin Klein",
+            "value": "Calvin Klein"
+          },
+          {
+            "label": "Celio",
+            "value": "Celio"
+          },
+          {
+            "label": "Chanel",
+            "value": "Chanel"
+          },
+          {
+            "label": "Christian Louboutin",
+            "value": "Christian Louboutin"
+          },
+          {
+            "label": "Churchs",
+            "value": "Churchs"
+          },
+          {
+            "label": "Clarks",
+            "value": "Clarks"
+          },
+          {
+            "label": "Converse",
+            "value": "Converse"
+          },
+          {
+            "label": "Coq sportif",
+            "value": "Coq sportif"
+          },
+          {
+            "label": "Dc Shoes",
+            "value": "Dc Shoes"
+          },
+          {
+            "label": "Desigual",
+            "value": "Desigual"
+          },
+          {
+            "label": "Dior",
+            "value": "Dior"
+          },
+          {
+            "label": "Dr Martens",
+            "value": "Dr Martens"
+          },
+          {
+            "label": "Ellesse",
+            "value": "Ellesse"
+          },
+          {
+            "label": "Faguo",
+            "value": "Faguo"
+          },
+          {
+            "label": "Felmini",
+            "value": "Felmini"
+          },
+          {
+            "label": "Free Lance",
+            "value": "Free Lance"
+          },
+          {
+            "label": "Geox",
+            "value": "Geox"
+          },
+          {
+            "label": "Giuseppe Zanotti",
+            "value": "Giuseppe Zanotti"
+          },
+          {
+            "label": "Gucci",
+            "value": "Gucci"
+          },
+          {
+            "label": "Guess",
+            "value": "Guess"
+          },
+          {
+            "label": "H&M",
+            "value": "H&M"
+          },
+          {
+            "label": "Hugo Boss",
+            "value": "Hugo Boss"
+          },
+          {
+            "label": "Ikks",
+            "value": "Ikks"
+          },
+          {
+            "label": "Isabel Marant",
+            "value": "Isabel Marant"
+          },
+          {
+            "label": "Jimmy Choo",
+            "value": "Jimmy Choo"
+          },
+          {
+            "label": "Jm Weston",
+            "value": "Jm Weston"
+          },
+          {
+            "label": "Jonak",
+            "value": "Jonak"
+          },
+          {
+            "label": "Kalenji",
+            "value": "Kalenji"
+          },
+          {
+            "label": "Kappa",
+            "value": "Kappa"
+          },
+          {
+            "label": "Kickers",
+            "value": "Kickers"
+          },
+          {
+            "label": "Lacoste",
+            "value": "Lacoste"
+          },
+          {
+            "label": "Le Temps Des Cerises",
+            "value": "Le Temps Des Cerises"
+          },
+          {
+            "label": "Levis",
+            "value": "Levis"
+          },
+          {
+            "label": "Loding",
+            "value": "Loding"
+          },
+          {
+            "label": "Louis Vuitton",
+            "value": "Louis Vuitton"
+          },
+          {
+            "label": "Mellow Yellow",
+            "value": "Mellow Yellow"
+          },
+          {
+            "label": "New Balance",
+            "value": "New Balance"
+          },
+          {
+            "label": "Nike",
+            "value": "Nike"
+          },
+          {
+            "label": "Palladium",
+            "value": "Palladium"
+          },
+          {
+            "label": "Paul Smith",
+            "value": "Paul Smith"
+          },
+          {
+            "label": "Paraboot",
+            "value": "Paraboot"
+          },
+          {
+            "label": "Paul Smith",
+            "value": "Paul Smith"
+          },
+          {
+            "label": "Prada",
+            "value": "Prada"
+          },
+          {
+            "label": "Puma",
+            "value": "Puma"
+          },
+          {
+            "label": "Quechua",
+            "value": "Quechua"
+          },
+          {
+            "label": "Ralph Lauren",
+            "value": "Ralph Lauren"
+          },
+          {
+            "label": "Redskins",
+            "value": "Redskins"
+          },
+          {
+            "label": "Reebok",
+            "value": "Reebok"
+          },
+          {
+            "label": "Repeto",
+            "value": "Repeto"
+          },
+          {
+            "label": "San Marina",
+            "value": "San Marina"
+          },
+          {
+            "label": "Santoni",
+            "value": "Santoni"
+          },
+          {
+            "label": "Sezane",
+            "value": "Sezane"
+          },
+          {
+            "label": "Skechers",
+            "value": "Skechers"
+          },
+          {
+            "label": "Sparco",
+            "value": "Sparco"
+          },
+          {
+            "label": "Timberland",
+            "value": "Timberland"
+          },
+          {
+            "label": "Tods",
+            "value": "Tods"
+          },
+          {
+            "label": "Ugg",
+            "value": "Ugg"
+          },
+          {
+            "label": "Vans",
+            "value": "Vans"
+          },
+          {
+            "label": "Weston",
+            "value": "Weston"
+          },
+          {
+            "label": "Zara",
+            "value": "Zara"
+          },
+          {
+            "label": "Autres",
+            "value": "Autres"
+          }
+        ]
+      },
+      {
+        "key": "Couleur",
+        "type": "Input",
+        "label": "Couleur",
+        "placeholder": "Couleur",
+        "required": true
+      },
+      {
+        "key": "Etat",
+        "type": "Select",
+        "label": "Type Etat",
+        "Value": "Etat neuf",
+        "items": [
+          {
+            "label": "Etat neuf",
+            "value": "Etat neuf"
+          },
+          {
+            "label": "Très bon état",
+            "value": "Très bon état"
+          },
+          {
+            "label": "Bon état",
+            "value": "Bon état"
+          },
+          {
+            "label": "Etat satisfaisant",
+            "value": "Etat satisfaisant"
+          },
+          {
+            "label": "Pour pièce",
+            "value": "Pour pièce"
+          }
+        ]
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      },
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description  de l'annonce",
+        "placeholder": "Description de l'annonce",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "id_parent_class": 35,
+    "label": "Accessoires & Bagagerie",
+    "channel": "accessoires_bagagerie",
+    "fields": [
+      {
+        "key": "Univers",
+        "type": "Select",
+        "label": "Univers",
+        "value": "Femme",
+        "items": [
+          {
+            "label": "Femme",
+            "value": "Femme"
+          },
+          {
+            "label": "Homme",
+            "value": "Hommet"
+          },
+          {
+            "label": "Enfant",
+            "value": "Enfant"
+          },
+          {
+            "label": "Mixte",
+            "value": "Mixte"
+          }
+        ]
+      },
+      {
+        "key": "Marque",
+        "type": "Input",
+        "label": "Marque",
+        "placeholder": "",
+        "required": true
+      },
+      {
+        "key": "Matiere",
+        "type": "Input",
+        "label": "Matière",
+        "placeholder": "",
+        "required": true
+      },
+      {
+        "key": "Couleur",
+        "type": "Input",
+        "label": "Couleur",
+        "placeholder": "",
+        "required": true
+      },
+      {
+        "key": "Etat",
+        "type": "Select",
+        "label": "Type Etat",
+        "value": "Etat neuf",
+        "items": [
+          {
+            "label": "Etat neuf",
+            "value": "Etat neuf"
+          },
+          {
+            "label": "Très bon état",
+            "value": "Très bon état"
+          },
+          {
+            "label": "Bon état",
+            "value": "Bon état"
+          },
+          {
+            "label": "Etat satisfaisant",
+            "value": "Etat satisfaisant"
+          },
+          {
+            "label": "Pour pièce",
+            "value": "Pour pièce"
+          }
+        ]
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      },
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description  de l'annonce",
+        "placeholder": "Description de l'annonce",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "id_parent_class": 35,
+    "label": "Montres & Bijoux",
+    "channel": "montres_bijoux",
+    "fields": [
+      {
+        "key": "Univers",
+        "type": "Input",
+        "label": "Univers",
+        "placeholder": "",
+        "required": true
+      },
+      {
+        "key": "Type",
+        "type": "Input",
+        "label": "Type",
+        "placeholder": "",
+        "required": true
+      },
+      {
+        "key": "Marque",
+        "type": "Input",
+        "label": "Marque",
+        "placeholder": "",
+        "required": true
+      },
+      {
+        "key": "Etat",
+        "type": "Select",
+        "label": "Type Etat",
+        "value": "Etat neuf",
+        "items": [
+          {
+            "label": "Etat neuf",
+            "value": "Etat neuf"
+          },
+          {
+            "label": "Très bon état",
+            "value": "Très bon état"
+          },
+          {
+            "label": "Bon état",
+            "value": "Bon état"
+          },
+          {
+            "label": "Etat satisfaisant",
+            "value": "Etat satisfaisant"
+          },
+          {
+            "label": "Pour pièce",
+            "value": "Pour pièce"
+          }
+        ]
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      },
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description  de l'annonce",
+        "placeholder": "Description de l'annonce",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "id_parent_class": 35,
+    "label": "Equipement bébé",
+    "channel": "equipement_bebe",
+    "fields": [
+      {
+        "key": "Type",
+        "type": "Input",
+        "label": "Type",
+        "placeholder": "",
+        "required": true
+      },
+      {
+        "key": "Marque",
+        "type": "Input",
+        "label": "Marque",
+        "placeholder": "",
+        "required": true
+      },
+      {
+        "key": "Couleur",
+        "type": "Input",
+        "label": "Couleur",
+        "placeholder": "",
+        "required": true
+      },
+      {
+        "key": "Etat",
+        "type": "Select",
+        "label": "Type Etat",
+        "value": "Etat neuf",
+        "items": [
+          {
+            "label": "Etat neuf",
+            "value": "Etat neuf"
+          },
+          {
+            "label": "Très bon état",
+            "value": "Très bon état"
+          },
+          {
+            "label": "Bon état",
+            "value": "Bon état"
+          },
+          {
+            "label": "Etat satisfaisant",
+            "value": "Etat satisfaisant"
+          },
+          {
+            "label": "Pour pièce",
+            "value": "Pour pièce"
+          }
+        ]
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      },
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description  de l'annonce",
+        "placeholder": "Description de l'annonce",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "id_parent_class": 35,
+    "label": "Vêtements bébé",
+    "channel": "vetements_bebe",
+    "fields": [
+      {
+        "key": "Etat",
+        "type": "Select",
+        "label": "Type Etat",
+        "value": "Etat neuf",
+        "items": [
+          {
+            "label": "Etat neuf",
+            "value": "Etat neuf"
+          },
+          {
+            "label": "Très bon état",
+            "value": "Très bon état"
+          },
+          {
+            "label": "Bon état",
+            "value": "Bon état"
+          },
+          {
+            "label": "Etat satisfaisant",
+            "value": "Etat satisfaisant"
+          },
+          {
+            "label": "Pour pièce",
+            "value": "Pour pièce"
+          }
+        ]
+      },
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description  de l'annonce",
+        "placeholder": "Description de l'annonce",
+        "required": true
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "id_parent_class": 42,
+    "label": "DVD / Films",
+    "channel": "dvd_films",
+    "fields": [
+      {
+        "key": "Etat",
+        "type": "Select",
+        "label": "Type Etat",
+        "value": "Etat neuf",
+        "items": [
+          {
+            "label": "Etat neuf",
+            "value": "Etat neuf"
+          },
+          {
+            "label": "Très bon état",
+            "value": "Très bon état"
+          },
+          {
+            "label": "Bon état",
+            "value": "Bon état"
+          },
+          {
+            "label": "Etat satisfaisant",
+            "value": "Etat satisfaisant"
+          }
+        ]
+      },
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description  de l'annonce",
+        "placeholder": "Description de l'annonce",
+        "required": true
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "id_parent_class": 42,
+    "label": "CD / Musique",
+    "channel": "cd_musique",
+    "fields": [
+      {
+        "key": "Etat",
+        "type": "Select",
+        "label": "Type Etat",
+        "value": "Etat neuf",
+        "items": [
+          {
+            "label": "Etat neuf",
+            "value": "Etat neuf"
+          },
+          {
+            "label": "Très bon état",
+            "value": "Très bon état"
+          },
+          {
+            "label": "Bon état",
+            "value": "Bon état"
+          },
+          {
+            "label": "Etat satisfaisant",
+            "value": "Etat satisfaisant"
+          }
+        ]
+      },
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description  de l'annonce",
+        "placeholder": "Description de l'annonce",
+        "required": true
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "id_parent_class": 42,
+    "label": "Livres",
+    "channel": "livres",
+    "fields": [
+      {
+        "key": "Etat",
+        "type": "Select",
+        "label": "Type Etat",
+        "value": "Etat neuf",
+        "items": [
+          {
+            "label": "Etat neuf",
+            "value": "Etat neuf"
+          },
+          {
+            "label": "Très bon état",
+            "value": "Très bon état"
+          },
+          {
+            "label": "Bon état",
+            "value": "Bon état"
+          },
+          {
+            "label": "Etat satisfaisant",
+            "value": "Etat satisfaisant"
+          }
+        ]
+      },
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description  de l'annonce",
+        "placeholder": "Description de l'annonce",
+        "required": true
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "id_parent_class": 42,
+    "label": "Animaux",
+    "channel": "animaux",
+    "fields": [
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "Type",
+        "type": "Input",
+        "label": "Type de l'offre",
+        "placeholder": "Chien & Chats / Autres animaux / Accessoires",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description  de l'annonce",
+        "placeholder": "Description de l'annonce",
+        "required": true
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Prix",
+        "placeholder": "Prix",
+        "required": true
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "id_parent_class": 42,
+    "label": "Vélos",
+    "channel": "velos",
+    "fields": [
+      {
+        "key": "Type",
+        "type": "Input",
+        "label": "Type",
+        "placeholder": "",
+        "required": true
+      },
+      {
+        "key": "Etat",
+        "type": "Select",
+        "label": "Type Etat",
+        "value": "Etat neuf",
+        "items": [
+          {
+            "label": "Etat neuf",
+            "value": "Etat neuf"
+          },
+          {
+            "label": "Très bon état",
+            "value": "Très bon état"
+          },
+          {
+            "label": "Bon état",
+            "value": "Bon état"
+          },
+          {
+            "label": "Etat satisfaisant",
+            "value": "Etat satisfaisant"
+          }
+        ]
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      },
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description  de l'annonce",
+        "placeholder": "Description de l'annonce",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "id_parent_class": 42,
+    "label": "Sports & Hobbies",
+    "channel": "sports_hobbies",
+    "fields": [
+      {
+        "key": "Etat",
+        "type": "Select",
+        "label": "Type Etat",
+        "value": "Etat neuf",
+        "items": [
+          {
+            "label": "Etat neuf",
+            "value": "Etat neuf"
+          },
+          {
+            "label": "Très bon état",
+            "value": "Très bon état"
+          },
+          {
+            "label": "Bon état",
+            "value": "Bon état"
+          },
+          {
+            "label": "Etat satisfaisant",
+            "value": "Etat satisfaisant"
+          }
+        ]
+      },
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description  de l'annonce",
+        "placeholder": "Description de l'annonce",
+        "required": true
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "id_parent_class": 42,
+    "label": "Instruments de musique",
+    "channel": "instruments_de_musique",
+    "fields": [
+      {
+        "key": "Etat",
+        "type": "Select",
+        "label": "Type Etat",
+        "value": "Etat neuf",
+        "items": [
+          {
+            "label": "Etat neuf",
+            "value": "Etat neuf"
+          },
+          {
+            "label": "Très bon état",
+            "value": "Très bon état"
+          },
+          {
+            "label": "Bon état",
+            "value": "Bon état"
+          },
+          {
+            "label": "Etat satisfaisant",
+            "value": "Etat satisfaisant"
+          }
+        ]
+      },
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description  de l'annonce",
+        "placeholder": "Description de l'annonce",
+        "required": true
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "id_parent_class": 42,
+    "label": "Collection",
+    "channel": "collection",
+    "fields": [
+      {
+        "key": "Etat",
+        "type": "Select",
+        "label": "Type Etat",
+        "value": "Etat neuf",
+        "items": [
+          {
+            "label": "Etat neuf",
+            "value": "Etat neuf"
+          },
+          {
+            "label": "Très bon état",
+            "value": "Très bon état"
+          },
+          {
+            "label": "Bon état",
+            "value": "Bon état"
+          },
+          {
+            "label": "Etat satisfaisant",
+            "value": "Etat satisfaisant"
+          }
+        ]
+      },
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description  de l'annonce",
+        "placeholder": "Description de l'annonce",
+        "required": true
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "id_parent_class": 42,
+    "label": "Jeux & Jouets",
+    "channel": "jeux_jouets",
+    "fields": [
+      {
+        "key": "Etat",
+        "type": "Select",
+        "label": "Type Etat",
+        "value": "Etat neuf",
+        "items": [
+          {
+            "label": "Etat neuf",
+            "value": "Etat neuf"
+          },
+          {
+            "label": "Très bon état",
+            "value": "Très bon état"
+          },
+          {
+            "label": "Bon état",
+            "value": "Bon état"
+          },
+          {
+            "label": "Etat satisfaisant",
+            "value": "Etat satisfaisant"
+          }
+        ]
+  },
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description  de l'annonce",
+        "placeholder": "Description de l'annonce",
+        "required": true
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "id_parent_class": 42,
+    "label": "Vins & Gastronomie",
+    "channel": "vins_gastronomie",
+    "fields": [
+      {
+        "key": "Etat",
+        "type": "Select",
+        "label": "Type Etat",
+        "Value": "Etat neuf",
+        "items": [
+          {
+            "label": "Etat neuf",
+            "value": "Etat neuf"
+          },
+          {
+            "label": "Très bon état",
+            "value": "Très bon état"
+          },
+          {
+            "label": "Bon état",
+            "value": "Bon état"
+          },
+          {
+            "label": "Etat satisfaisant",
+            "value": "Etat satisfaisant"
+          }
+        ]
+      },
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description  de l'annonce",
+        "placeholder": "Description de l'annonce",
+        "required": true
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "id_parent_class": 53,
+    "label": "Matériel Agricole",
+    "channel": "materiel_agricole",
+    "fields": [
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description  de l'annonce",
+        "placeholder": "Description de l'annonce",
+        "required": true
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "id_parent_class": 53,
+    "label": "Transport - Manutention",
+    "channel": "transport_manutention",
+    "fields": [
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description  de l'annonce",
+        "placeholder": "Description de l'annonce",
+        "required": true
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "id_parent_class": 53,
+    "label": "BTP - Chantier Gros-oeuvre",
+    "channel": "btp_chantier_gros_oeuvre",
+    "fields": [
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description  de l'annonce",
+        "placeholder": "Description de l'annonce",
+        "required": true
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "id_parent_class": 53,
+    "label": "Outillage - Matériaux 2nd-oeuvre",
+    "channel": "outillage_materiaux_2nd_oeuvre",
+    "fields": [
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description  de l'annonce",
+        "placeholder": "Description de l'annonce",
+        "required": true
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "id_parent_class": 53,
+    "label": "Équipements Industriels",
+    "channel": "equipements_industriels",
+    "fields": [
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description  de l'annonce",
+        "placeholder": "Description de l'annonce",
+        "required": true
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "id_parent_class": 53,
+    "label": "Restauration - Hôtellerie",
+    "channel": "restauration_hotellerie",
+    "fields": [
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description  de l'annonce",
+        "placeholder": "Description de l'annonce",
+        "required": true
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "id_parent_class": 53,
+    "label": "Fournitures de Bureau",
+    "channel": "fournitures_de_bureau",
+    "fields": [
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description  de l'annonce",
+        "placeholder": "Description de l'annonce",
+        "required": true
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "id_parent_class": 53,
+    "label": "Commerces & Marchés",
+    "channel": "commerces_marches",
+    "fields": [
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description  de l'annonce",
+        "placeholder": "Description de l'annonce",
+        "required": true
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "id_parent_class": 53,
+    "label": "Matériel Médical",
+    "channel": "materiel_medical",
+    "fields": [
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description  de l'annonce",
+        "placeholder": "Description de l'annonce",
+        "required": true
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "id_parent_class": 63,
+    "label": "Prestations de services",
+    "channel": "prestations_de_services",
+    "fields": [
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description  de l'annonce",
+        "placeholder": "Description de l'annonce",
+        "required": true
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "id_parent_class": 63,
+    "label": "Billetterie",
+    "channel": "billetterie",
+    "fields": [
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description  de l'annonce",
+        "placeholder": "Description de l'annonce",
+        "required": true
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "id_parent_class": 63,
+    "label": "Evénements",
+    "channel": "evenements",
+    "fields": [
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description  de l'annonce",
+        "placeholder": "Description de l'annonce",
+        "required": true
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "id_parent_class": 63,
+    "label": "Cours particuliers",
+    "channel": "cours_particuliers",
+    "fields": [
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description  de l'annonce",
+        "placeholder": "Description de l'annonce",
+        "required": true
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "id_parent_class": 63,
+    "label": "Covoiturage",
+    "channel": "covoiturage",
+    "fields": [
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description  de l'annonce",
+        "placeholder": "Description de l'annonce",
+        "required": true
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "id_parent_class": 69,
+    "label": "Autres",
+    "channel": "autres",
+    "fields": [
+      {
+        "key": "titre",
+        "type": "Input",
+        "label": "Titre de l'annonce",
+        "placeholder": "Titre de l'annonce",
+        "required": true
+      },
+      {
+        "key": "experiences",
+        "type": "Input",
+        "label": "description de l'annonce",
+        "placeholder": "Description de l'annonce",
+        "required": true
+      },
+      {
+        "key": "Prix",
+        "type": "Input",
+        "label": "Indiquez votre prix",
+        "placeholder": "€",
+        "required": true
+      },
+      {
+        "key": "description",
+        "type": "Input",
+        "label": "Description de l'annonce",
+        "placeholder": "Description",
+        "required": true
+      }
+    ]
+  }
+]

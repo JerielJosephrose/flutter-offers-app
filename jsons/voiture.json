@@ -1,0 +1,130 @@
+[
+  {
+    "key": "marque",
+    "type": "Input",
+    "label": "marque",
+    "placeholder": "marque",
+    "required": true,
+    "value": "Volkswagen"
+  },
+  {
+    "key": "modèle",
+    "type": "Input",
+    "label": "modèle",
+    "placeholder": "modèle",
+    "required": true,
+    "value": "5"
+  },
+  {
+    "key": "Année modèle",
+    "type": "Input",
+    "label": "Année modèle",
+    "placeholder": "Année modèle",
+    "required": true,
+    "value": "2005"
+  },
+  {
+    "key": "DatedeCirculation",
+    "type": "Input",
+    "label": "Date de première mise en circulation",
+    "placeholder": "MM/AAAA",
+    "required": true,
+    "value": "05/2006"
+  },
+  {
+    "key": "Carburant",
+    "type": "Input",
+    "label": "Carburant",
+    "placeholder": "Carburant",
+    "required": true,
+    "value": "Diesel"
+  },
+  {
+    "key": "Boite de vitesse",
+    "type": "Input",
+    "label": "Boite de vitesse",
+    "placeholder": "Boite de vitesse",
+    "required": true,
+    "value": "MANUELLE"
+  },
+  {
+    "key": "Type de véhicule",
+    "type": "Input",
+    "label": "Type de véhicule",
+    "placeholder": "Type de véhicule",
+    "required": true,
+    "value": "Citadine"
+  },
+  {
+    "key": "portes",
+    "type": "Input",
+    "label": "nombre de portes",
+    "placeholder": "nombre de portes",
+    "required": true,
+    "value": "5"
+  },
+  {
+    "key": "place",
+    "type": "Input",
+    "label": "nombres de place(s)",
+    "placeholder": "nombres de place(s)",
+    "required": true,
+    "value": "5"
+  },
+  {
+    "key": "Puissance fiscale",
+    "type": "Input",
+    "label": "Puissance fiscale",
+    "placeholder": "Puissance fiscale",
+    "required": true,
+    "value": "5cv"
+  },
+  {
+    "key": "Puissance DIN",
+    "type": "Input",
+    "label": "Puissance DIN",
+    "placeholder": "Puissance DIN",
+    "required": true,
+    "value": "105ch"
+  },
+  {
+    "key": "Kilometrage",
+    "type": "Input",
+    "label": "Kilometrage",
+    "placeholder": "km",
+    "required": true,
+    "value": "155655 km"
+  },
+  {
+    "key": "Couleur",
+    "type": "Input",
+    "label": "Couleur",
+    "placeholder": "Couleur",
+    "required": true,
+    "value": "noire"
+  },
+  {
+    "key": "Prix",
+    "type": "Input",
+    "label": "Indiquez votre prix",
+    "placeholder": "€",
+    "required": true,
+    "value": "5450"
+  },
+  {
+    "key": "titre",
+    "type": "Input",
+    "label": "titre de l'annonce",
+    "placeholder": "titre",
+    "required": true,
+    "value": "Golf 5 1.9l tdi 105cv"
+  },
+  {
+    "key": "description",
+    "type": "Input",
+    "label": "Description de l'annonce",
+    "placeholder": "Description",
+    "required": true,
+    "value": "Golf 5 1.9l TDI\n142900km de 2006\nPremière main\nContrôle du 08/11/2019 RAS\nSera refait pour la vente (cause Covid19)\nBoîte 5 vitesse\nClim\n105 cvx\nToujours entretenu mécaniquement strictement rien à prévoir\nQuelques traces et petites rayures\nCiel de toit à refaire (due à la chaleur, véhicule ayant roulé en Guadeloupe)"
+  }
+]

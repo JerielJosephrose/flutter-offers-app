@@ -1,0 +1,12 @@
+{
+  "autoValidated": false,
+  "fields": [
+    {
+      "key": "nom",
+      "type": "Input",
+      "label": "Nom du profil",
+      "placeholder": "Entrer votre pseudo",
+      "required": true
+    }
+  ]
+}

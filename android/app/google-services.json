@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "661872750343",
+    "firebase_url": "https://opi-annonce.firebaseio.com",
+    "project_id": "opi-annonce",
+    "storage_bucket": "opi-annonce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661872750343:android:7cface8e6f6360d7775fa2",
+        "android_client_info": {
+          "package_name": "com.example.json"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "661872750343-g7jhcmb5h3ak85bcnvsq7js4muh0hj60.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.json",
+            "certificate_hash": "0b791418c178c40ef4c4c54ae44a315f45f2d08b"
+          }
+        },
+        {
+          "client_id": "661872750343-a0sghuu7e1safl4aq0pdv56totbou15d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnuLmGVCUaAcG8IxddSv1jPO1wDMVp54g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "661872750343-a0sghuu7e1safl4aq0pdv56totbou15d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

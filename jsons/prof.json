@@ -1,0 +1,42 @@
+[
+  {
+    "key": "poste",
+    "type": "Input",
+    "label": "Poste recherché",
+    "placeholder": "Poste recherché",
+    "required": true,
+    "value": "professeur d'histoire Des arts"
+  },
+  {
+    "key": "experiences",
+    "type": "Input",
+    "label": "Description de vos expériences",
+    "placeholder": "Description de vos expériences",
+    "required": true,
+    "value": "Maitre de conférence à l'université de Lyon II 2010-2016"
+  },
+  {
+    "key": "titre",
+    "type": "Input",
+    "label": "titre de l'annonce",
+    "placeholder": "titre",
+    "required": true,
+    "value": "Professeur d'histoire Des arts"
+  },
+  {
+    "key": "description",
+    "type": "Input",
+    "label": "Description de l'annonce",
+    "placeholder": "Description",
+    "required": true,
+    "value": "Je recherche un poste Dans une université de la region Ile-de-France."
+  },
+  {
+    "key": "Prix",
+    "type": "Input",
+    "label": "Salaire",
+    "placeholder": "Salaire",
+    "required": true,
+    "value": "2100,00"
+  }
+]

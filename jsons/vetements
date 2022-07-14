@@ -1,0 +1,253 @@
+[
+  {
+    "key": "Univers",
+    "type": "Select",
+    "label": "Univers",
+    "value": "Femme",
+    "items": [
+      {
+        "label": "Femme",
+        "value": "Femme"
+      },
+      {
+        "label": "Maternité",
+        "value": "Maternité"
+      },
+      {
+        "label": "Homme",
+        "value": "Hommet"
+      },
+      {
+        "label": "Enfant",
+        "value": "Enfant"
+      }
+    ]
+  },
+  {
+    "key": "Taille",
+    "type": "Input",
+    "label": "Taille",
+    "placeholder": "Taille",
+    "required": true,
+    "value": "38"
+  },
+  {
+    "key": "Type",
+    "type": "Type de Vêtement",
+    "Value": "Pantalons",
+    "items": [
+      {
+        "label": "Robes / jupes",
+        "value": "Robes / jupes"
+      },
+      {
+        "label": "Manteaux & Vestes",
+        "value": "Manteaux & Vestes"
+      },
+      {
+        "label": "Hauts / T-Shirts / Polos",
+        "value": "Hauts / T-Shirts / Polos"
+      },
+      {
+        "label": "Pantalons",
+        "value": "Pantalons"
+      },
+      {
+        "label": "Pulls / Gillets /Mailles",
+        "value": "Pulls / Gillets /Mailles"
+      },
+      {
+        "label": "Jeans",
+        "value": "Jeans"
+      },
+      {
+        "label": "Chemises / Chemisiers",
+        "value": "Chemises / Chemisiers"
+      },
+      {
+        "label": "Costumes / Tailleurs",
+        "value": "Costumes / Tailleurs"
+      },
+      {
+        "label": "Shorts / Pantacours / Bermudas",
+        "value": "Shorts / Pantacours / Bermudas"
+      },
+      {
+        "label": "Sports / Danse",
+        "value": "Sports / Danse"
+      },
+      {
+        "label": "Maillots de bain & Vêtements de plage",
+        "value": "Maillots de bain & Vêtements de plage"
+      },
+      {
+        "label": "Lingerie",
+        "value": "Lingerie"
+      },
+      {
+        "label": "Sous-vêtements & vêtements de nuit",
+        "value": "Sous-vêtements & vêtements de nuit"
+      },
+      {
+        "label": "Déguisement",
+        "value": "Déguisement"
+      },
+      {
+        "label": "Mariage",
+        "value": "Mariage"
+      },
+      {
+        "label": "Autre",
+        "value": "Autre"
+      }
+    ]
+  },
+  {
+    "key": "Marque",
+    "type": "Input",
+    "label": "Marque",
+    "placeholder": "",
+    "value": "Bleu / Ciel",
+    "required": true
+  },
+  {
+    "key": "Couleur",
+    "type": "Select",
+    "label": "Couleur",
+    "value": "Argenté / Acie",
+    "items": [
+      {
+        "label": "Argenté / Acier",
+        "value": "Argenté / Acie"
+      },
+      {
+        "label": "Beige / Ciel",
+        "value": "Beige / Ciel"
+      },
+      {
+        "label": "Blanc",
+        "value": "Blanc"
+      },
+      {
+        "label": "Bleu / Ciel",
+        "value": "Bleu / Ciel"
+      },
+      {
+        "label": "Crème / Blanc cassé / Ecru",
+        "value": "Crème / Blanc cassé / Ecr"
+      },
+      {
+        "label": "Gris / Anthracite",
+        "value": "Gris / Anthracite"
+      },
+      {
+        "label": "Imprimé multicolore",
+        "value": "Imprimé multicolore"
+      },
+      {
+        "label": "Jaune / Moutarde",
+        "value": "Jaune / Moutarde"
+      },
+      {
+        "label": "Kaki",
+        "value": "Kaki"
+      },
+      {
+        "label": "Lavande / Lilas",
+        "value": "Lavande / Lilas"
+      },
+      {
+        "label": "Marine / Turquoise",
+        "value": "Marine / Turquoise"
+      },
+      {
+        "label": "Marron",
+        "value": "Marron"
+      },
+      {
+        "label": "Multicolore",
+        "value": "Multicolore"
+      },
+      {
+        "label": "Noir",
+        "value": "Noir"
+      },
+      {
+        "label": "Orange / Corail",
+        "value": "Orange / Corail"
+      },
+      {
+        "label": "Rose / Fushia",
+        "value": "Rose / Fushia"
+      },
+      {
+        "label": "Rouge / Bordeaux",
+        "value": "Rouge / Bordeaux"
+      },
+      {
+        "label": "Vert",
+        "value": "Vert"
+      },
+      {
+        "label": "Violet / Mauve",
+        "value": "Violet / Mauve"
+      },
+      {
+        "label": "Autre",
+        "value": "Autre"
+      }
+    ]
+  },
+  {
+    "key": "Etat",
+    "type": "Select",
+    "label": "Type Etat",
+    "value": "Bon état",
+    "items": [
+      {
+        "label": "Etat neuf",
+        "value": "Etat neuf"
+      },
+      {
+        "label": "Très bon état",
+        "value": "Très bon état"
+      },
+      {
+        "label": "Bon état",
+        "value": "Bon état"
+      },
+      {
+        "label": "Etat satisfaisant",
+        "value": "Etat satisfaisant"
+      },
+      {
+        "label": "Pour pièce",
+        "value": "Pour pièce"
+      }
+    ]
+  },
+  {
+    "key": "Prix",
+    "type": "Input",
+    "label": "Indiquez votre prix",
+    "placeholder": "€",
+    "value": "25",
+    "required": true
+  },
+  {
+    "key": "titre",
+    "type": "Input",
+    "label": "Titre de l'annonce",
+    "placeholder": "Titre de l'annonce",
+    "value": "pantalon nike",
+    "required": true
+  },
+  {
+    "key": "description",
+    "type": "Input",
+    "label": "Description  de l'annonce",
+    "placeholder": "Description de l'annonce",
+    "value": "pantalon de marque Nike bleue taille 38",
+    "required": true
+  }
+]

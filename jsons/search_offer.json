@@ -1,0 +1,19 @@
+{
+  "autoValidated": false,
+  "fields": [
+    {
+      "key": "titre",
+      "type": "Input",
+      "label": "Que recherchez-vous?",
+      "placeholder": "Que recherchez-vous?",
+      "required": true
+    },
+    {
+      "key": "localisation",
+      "type": "Input",
+      "label": "Localisation",
+      "placeholder": "Saisissez une ville",
+      "required": true
+    }
+  ]
+}

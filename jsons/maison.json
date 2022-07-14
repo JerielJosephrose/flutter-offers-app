@@ -1,0 +1,66 @@
+[
+  {
+    "key": "Meuble",
+    "type": "Input",
+    "label": "Ce bien est",
+    "placeholder": "Meublé  / Non meublé",
+    "required": true,
+    "value": "Meublé"
+  },
+  {
+    "key": "Surface",
+    "type": "Input",
+    "label": "Surface habitable",
+    "placeholder": "m2",
+    "required": true,
+    "value": "90"
+  },
+  {
+    "key": "Piece",
+    "type": "Input",
+    "label": "Nombre de pièce",
+    "placeholder": "pièce(s)",
+    "required": true,
+    "value": "5"
+  },
+  {
+    "key": "ClasseEnergie",
+    "type": "Input",
+    "label": "Classe énergie",
+    "placeholder": "A /B / C / D / E / F / G / VIERGE",
+    "required": true,
+    "value": "A"
+  },
+  {
+    "key": "GES",
+    "type": "Input",
+    "label": "GES",
+    "placeholder": "A /B / C / D / E / F / G / VIERGE",
+    "required": true,
+    "value": "B"
+  },
+  {
+    "key": "Prix",
+    "type": "Input",
+    "label": "Salaire",
+    "placeholder": "Salaire",
+    "required": true,
+    "value": "2100,00"
+  },
+  {
+    "key": "titre",
+    "type": "Input",
+    "label": "titre de l'annonce",
+    "placeholder": "titre",
+    "required": true,
+    "value": "Maison individuelle"
+  },
+  {
+    "key": "description",
+    "type": "Input",
+    "label": "Description de l'annonce",
+    "placeholder": "Description",
+    "required": true,
+    "value": "Agréable maison ancienne entièrement restaurée.Quartier calme et proche du centre-ville et des commodités. Fort potentiel, beaux volumes, nombreux rangements, petites indépendances. Idéal pour grande famille ou professionnel libérale.Grand garage-buanderie, jardin, véranda, tonnelle, portail avec automatisme, 4 grandes chambres, 2 cuisines entièrement équipées, 2 salles d'eau dont une avec douche à l'italienne, 2 wc indépendants. "
+  }
+]

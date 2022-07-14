@@ -1,0 +1,2070 @@
+[
+  {
+    "id": "0",
+    "label": "EMPLOI",
+    "channel": "_emploi_",
+    "subcategories": [
+      {
+        "id": "1",
+        "id_parent_class": "0",
+        "label": "Offres d'emploi",
+        "channel": "offres_d_emploi",
+        "fields":[
+          {
+            "key": "poste",
+            "type": "Input",
+            "label": "Poste recherché",
+            "placeholder": "Poste recherché",
+            "required": true
+          },
+          {
+            "key": "experiences",
+            "type": "Input",
+            "label": "Description de vos expériences",
+            "placeholder": "Description de vos expériences",
+            "required": true
+          },
+          {
+            "key": "lieu",
+            "type": "Input",
+            "label": "Ou se situe le poste?",
+            "placeholder": "Ou se situe le poste?",
+            "required": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "label": "VEHICULES",
+    "channel": "_vehicules_",
+    "subcategories": [
+      {
+        "id": "3",
+        "id_parent_class": "2",
+        "label": "Voitures",
+        "channel": "voitures",
+        "fields": [
+          {
+            "key": "marque",
+            "type": "Input",
+            "label": "marque",
+            "placeholder": "marque",
+            "required": true
+          },
+          {
+            "key": "modèle",
+            "type": "Input",
+            "label": "modèle",
+            "placeholder": "modèle",
+            "required": true
+          },
+          {
+            "key": "Année modèle",
+            "type": "Input",
+            "label": "Année modèle",
+            "placeholder": "Année modèle",
+            "required": true
+          },
+          {
+            "key": "DatedeCirculation",
+            "type": "Input",
+            "label": "Date de première mise en circulation",
+            "placeholder": "MM/AAAA",
+            "required": true
+          },
+          {
+            "key": "Carburant",
+            "type": "Input",
+            "label": "Carburant",
+            "placeholder": "Carburant",
+            "required": true
+          },
+          {
+            "key": "Boite de vitesse",
+            "type": "Input",
+            "label": "Boite de vitesse",
+            "placeholder": "Boite de vitesse",
+            "required": true
+          },
+          {
+            "key": "Type de véhicule",
+            "type": "Input",
+            "label": "Type de véhicule",
+            "placeholder": "Type de véhicule",
+            "required": true
+          },
+          {
+            "key": "portes",
+            "type": "Input",
+            "label": "nombre de portes",
+            "placeholder": "nombre de portes",
+            "required": true
+          },
+          {
+            "key": "place",
+            "type": "Input",
+            "label": "nombres de place(s",
+            "placeholder": "nombres de place(s",
+            "required": true
+          },
+          {
+            "key": "Puissance fiscale",
+            "type": "Input",
+            "label": "Puissance fiscale",
+            "placeholder": "Puissance fiscale",
+            "required": true
+          },
+          {
+            "key": "Puissance DIN",
+            "type": "Input",
+            "label": "Puissance DIN",
+            "placeholder": "Puissance DIN",
+            "required": true
+          },
+          {
+            "key": "Kilometrage",
+            "type": "Input",
+            "label": "Kilometrage",
+            "placeholder": "km",
+            "required": true
+          },
+          {
+            "key": "Couleur",
+            "type": "Input",
+            "label": "Couleur",
+            "placeholder": "Couleur",
+            "required": true
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "id_parent_class": "2",
+        "label": "Motos",
+        "channel": "motos",
+        "fields": [
+          {
+            "key": "marque",
+            "type": "Input",
+            "label": "marque",
+            "placeholder": "marque",
+            "required": true
+          },
+          {
+            "key": "modèle",
+            "type": "Input",
+            "label": "modèle",
+            "placeholder": "modèle",
+            "required": true
+          },
+          {
+            "key": "Année modèle",
+            "type": "Input",
+            "label": "Année modèle",
+            "placeholder": "MM/AAAA",
+            "required": true
+          },
+          {
+            "key": "Kilometrage",
+            "type": "Input",
+            "label": "Kilometrage",
+            "placeholder": "km",
+            "required": true
+          },
+          {
+            "key": "Cylindrée",
+            "type": "Input",
+            "label": "Cylindrée",
+            "placeholder": "cm3",
+            "required": true
+          },
+          {
+            "key": "DatedeCirculation",
+            "type": "Input",
+            "label": "Date de première mise en circulation",
+            "placeholder": "MM/AAAA",
+            "required": true
+          },
+          {
+            "key": "Couleur",
+            "type": "Input",
+            "label": "Couleur",
+            "placeholder": "Couleur",
+            "required": true
+          },
+          {
+            "key": "Type",
+            "type": "Input",
+            "label": "Type",
+            "placeholder": "Moto-Scooter-Quad-Autre",
+            "required": true
+          },
+          {
+            "key": "permis",
+            "type": "Input",
+            "label": "Type de permis",
+            "placeholder": "A / AL / Sans permis",
+            "required": true
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "id_parent_class": "2",
+        "label": "Caravaning",
+        "channel": "caravaning",
+        "fields": [
+          {
+            "key": "Année modèle",
+            "type": "Input",
+            "label": "Année modèle",
+            "placeholder": "MM/AAAA",
+            "required": true
+          },
+          {
+            "key": "Kilometrage",
+            "type": "Input",
+            "label": "kilométrage",
+            "placeholder": "km",
+            "required": true
+          },
+          {
+            "key": "DateCirculation",
+            "type": "Input",
+            "label": "Date de première mis en circulation",
+            "placeholder": "MM/AAAA",
+            "required": true
+          }
+        ]
+      },
+      {
+        "id": "6",
+        "id_parent_class": "2",
+        "label": "Utilitaires",
+        "channel": "utilitaires",
+        "fields": [
+          {
+            "key": "Année modèle",
+            "type": "Input",
+            "label": "Année modèle",
+            "placeholder": "MM/AAAA",
+            "required": true
+          },
+          {
+            "key": "DatedeCirculation",
+            "type": "Input",
+            "label": "Date de première mise en circulation",
+            "placeholder": "MM/AAAA",
+            "required": true
+          },
+          {
+            "key": "Kilometrage",
+            "type": "Input",
+            "label": "Kilometrage",
+            "placeholder": "km",
+            "required": true
+          },
+          {
+            "key": "Carburant",
+            "type": "Input",
+            "label": "Carburant",
+            "placeholder": "Carburant",
+            "required": true
+          },
+          {
+            "key": "BoiteDeVitesse",
+            "type": "Input",
+            "label": "Boite de vitesse",
+            "placeholder": "Boite de vitesse",
+            "required": true
+          },
+          {
+            "key": "Couleur",
+            "type": "Input",
+            "label": "Couleur",
+            "placeholder": "Couleur",
+            "required": true
+          },
+          {
+            "key": "Portes",
+            "type": "Input",
+            "label": "Nombres de portes",
+            "placeholder": "Nombres de portes",
+            "required": true
+          },
+          {
+            "key": "Places",
+            "type": "Input",
+            "label": "Nombre de place(s)",
+            "placeholder": "Nombre de place(s)",
+            "required": true
+          },
+          {
+            "key": "PuissanceF",
+            "type": "Input",
+            "label": "Puissance fiscale",
+            "placeholder": "Cv",
+            "required": true
+          },
+          {
+            "key": "PuissanceDin",
+            "type": "Input",
+            "label": "Puissance DIN",
+            "placeholder": "Ch",
+            "required": true
+          }
+        ]
+      },
+      {
+        "id": "7",
+        "id_parent_class": "2",
+        "label": "Nautisme",
+        "channel": "nautisme",
+        "fields": [
+          {
+            "key": "Type",
+            "type": "Input",
+            "label": "Type",
+            "placeholder": "Barques/Bateaux à moteur...",
+            "required": true
+          }
+        ]
+      },
+      {
+        "id": "8",
+        "id_parent_class": "2",
+        "label": "Equipement Auto",
+        "channel": "equipement_auto",
+        "fields": [
+          {
+            "key": "Titre",
+            "type": "Input",
+            "label": "Titre de l'annonce",
+            "placeholder": "Titre de l'annonce",
+            "required": true
+          },
+          {
+            "key": "Description",
+            "type": "Input",
+            "label": "Description  de l'annonce",
+            "placeholder": "Description de l'annonce",
+            "required": true
+          }
+        ]
+      },
+      {
+        "id": "9",
+        "id_parent_class": "2",
+        "label": "Equipement Moto",
+        "channel": "equipement_moto",
+        "fields": [
+          {
+            "key": "Titre",
+            "type": "Input",
+            "label": "Titre de l'annonce",
+            "placeholder": "Titre de l'annonce",
+            "required": true
+          },
+          {
+            "key": "Description",
+            "type": "Input",
+            "label": "Description  de l'annonce",
+            "placeholder": "Description de l'annonce",
+            "required": true
+          }
+        ]
+      },
+      {
+        "id": "10",
+        "id_parent_class": "2",
+        "label": "Equipement Caravaning",
+        "channel": "equipement_caravaning",
+        "fields": [
+          {
+            "key": "Titre",
+            "type": "Input",
+            "label": "Titre de l'annonce",
+            "placeholder": "Titre de l'annonce",
+            "required": true
+          },
+          {
+            "key": "Description",
+            "type": "Input",
+            "label": "Description  de l'annonce",
+            "placeholder": "Description de l'annonce",
+            "required": true
+          }
+        ]
+      },
+      {
+        "id": "11",
+        "id_parent_class": "2",
+        "label": "Equipement Nautisme",
+        "channel": "equipement_nautisme",
+        "fields": [
+          {
+            "key": "Titre",
+            "type": "Input",
+            "label": "Titre de l'annonce",
+            "placeholder": "Titre de l'annonce",
+            "required": true
+          },
+          {
+            "key": "Description",
+            "type": "Input",
+            "label": "Description  de l'annonce",
+            "placeholder": "Description de l'annonce",
+            "required": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "label": "IMMOBILIER",
+    "channel": "_immobilier_",
+    "subcategories": [
+      {
+        "id": "13",
+        "id_parent_class": "12",
+        "label": "Ventes immobilières",
+        "channel": "ventes_immobilieres",
+        "fields": [
+          {
+            "key": "TypeVente",
+            "type": "Input",
+            "label": "Type de vente",
+            "placeholder": "Ancien / Viager",
+            "required": true
+          },
+          {
+            "key": "TypeBien",
+            "type": "Input",
+            "label": "Choississez votre type de bien",
+            "placeholder": "Maison / Appart / Terrain / Parkin / Autre",
+            "required": true
+          },
+          {
+            "key": "Surface",
+            "type": "Input",
+            "label": "Surface habitable",
+            "placeholder": "m2",
+            "required": true
+          },
+          {
+            "key": "Piece",
+            "type": "Input",
+            "label": "Nombre de pièce",
+            "placeholder": "pièce(s)",
+            "required": true
+          },
+          {
+            "key": "ClasseEnergie",
+            "type": "Input",
+            "label": "Classe énergie",
+            "placeholder": "A /B / C / D / E / F / G / VIERGE",
+            "required": true
+          },
+          {
+            "key": "GES",
+            "type": "Input",
+            "label": "GES",
+            "placeholder": "A /B / C / D / E / F / G / VIERGE",
+            "required": true
+          }
+        ]
+      },
+      {
+        "id": "14",
+        "id_parent_class": "12",
+        "label": "Locations",
+        "channel": "locations",
+        "fields": [
+          {
+            "key": "Meuble",
+            "type": "Input",
+            "label": "Ce bien est:",
+            "placeholder": "Meublé  / Non meublé",
+            "required": true
+          },
+          {
+            "key": "Surface",
+            "type": "Input",
+            "label": "Surface habitable",
+            "placeholder": "m2",
+            "required": true
+          },
+          {
+            "key": "Piece",
+            "type": "Input",
+            "label": "Nombre de pièce",
+            "placeholder": "pièce(s)",
+            "required": true
+          },
+          {
+            "key": "ClasseEnergie",
+            "type": "Input",
+            "label": "Classe énergie",
+            "placeholder": "A /B / C / D / E / F / G / VIERGE",
+            "required": true
+          },
+          {
+            "key": "GES",
+            "type": "Input",
+            "label": "GES",
+            "placeholder": "A /B / C / D / E / F / G / VIERGE",
+            "required": true
+          }
+        ]
+      },
+      {
+        "id": "15",
+        "id_parent_class": "12",
+        "label": "Colocations",
+        "channel": "colocations",
+        "fields": [
+          {
+            "key": "Surface",
+            "type": "Input",
+            "label": "Surface habitable",
+            "placeholder": "m2",
+            "required": true
+          },
+          {
+            "key": "Piece",
+            "type": "Input",
+            "label": "Nombre de pièce",
+            "placeholder": "pièce(s)",
+            "required": true
+          },
+          {
+            "key": "ClasseEnergie",
+            "type": "Input",
+            "label": "Classe énergie",
+            "placeholder": "A /B / C / D / E / F / G / VIERGE",
+            "required": true
+          },
+          {
+            "key": "GES",
+            "type": "Input",
+            "label": "GES",
+            "placeholder": "A /B / C / D / E / F / G / VIERGE",
+            "required": true
+          }
+        ]
+      },
+      {
+        "id": "16",
+        "id_parent_class": "12",
+        "label": "Bureaux & Commerces",
+        "channel": "bureaux_commerces",
+        "fields": [
+          {
+            "key": "Surface",
+            "type": "Input",
+            "label": "Surface habitable",
+            "placeholder": "m2",
+            "required": true
+          },
+          {
+            "key": "ClasseEnergie",
+            "type": "Input",
+            "label": "Classe énergie",
+            "placeholder": "A /B / C / D / E / F / G / VIERGE",
+            "required": true
+          },
+          {
+            "key": "GES",
+            "type": "Input",
+            "label": "GES",
+            "placeholder": "A /B / C / D / E / F / G / VIERGE",
+            "required": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "17",
+    "id_parent_class": "12",
+    "label": "VACANCES",
+    "channel": "_vacances_",
+    "subcategories": [
+      {
+        "id": "18",
+        "label": "Locations & Gîtes",
+        "channel": "locations_gites",
+        "fields": [
+          {
+            "key": "TypeResidence",
+            "type": "Input",
+            "label": "Type de résidence",
+            "placeholder": "Secondaire / Principale / Non résidentiel",
+            "required": true
+          },
+          {
+            "key": "TypeHebergement",
+            "type": "Input",
+            "label": "Type dhébergement",
+            "placeholder": "Appartement / Chalet / Chambre / Château / Ferme",
+            "required": true
+          },
+          {
+            "key": "Classement",
+            "type": "Input",
+            "label": "Classement officiel",
+            "placeholder": "Nombre d'étoiles",
+            "required": true
+          },
+          {
+            "key": "Capacite",
+            "type": "Input",
+            "label": "Capacité",
+            "placeholder": "Nombre de personnes",
+            "required": true
+          },
+          {
+            "key": "Chambre",
+            "type": "Input",
+            "label": "Nombre de chambres",
+            "placeholder": "nombre de chambre",
+            "required": true
+          },
+          {
+            "key": "HoraireArrivee",
+            "type": "Input",
+            "label": "Horaire d'arrivée",
+            "placeholder": "Horaire d'arrivée",
+            "required": true
+          },
+          {
+            "key": "HoraireDepart",
+            "type": "Input",
+            "label": "Horaire de départ",
+            "placeholder": "Horaire de départ",
+            "required": true
+          },
+          {
+            "key": "Piscine",
+            "type": "Input",
+            "label": "Location avec piscine",
+            "placeholder": "O/N",
+            "required": true
+          },
+          {
+            "key": "Animaux",
+            "type": "Input",
+            "label": "Animaux acceptés?",
+            "placeholder": "O/N",
+            "required": true
+          }
+        ]
+      },
+      {
+        "id": "19",
+        "label": "Chambres d'hôtes",
+        "channel": "chambres_d_hotes",
+        "fields": [
+          {
+            "key": "Capacite",
+            "type": "Input",
+            "label": "Capacité",
+            "placeholder": "Nombre de personnes",
+            "required": true
+          },
+          {
+            "key": "Chambre",
+            "type": "Input",
+            "label": "Nombre de chambres",
+            "placeholder": "nombre de chambre",
+            "required": true
+          },
+          {
+            "key": "HoraireArrivee",
+            "type": "Input",
+            "label": "Horaire d'arrivée",
+            "placeholder": "Horaire d'arrivée",
+            "required": true
+          },
+          {
+            "key": "HoraireDepart",
+            "type": "Input",
+            "label": "Horaire de départ",
+            "placeholder": "Horaire de départ",
+            "required": true
+          },
+          {
+            "key": "Piscine",
+            "type": "Input",
+            "label": "Location avec piscine",
+            "placeholder": "O/N",
+            "required": true
+          },
+          {
+            "key": "Animaux",
+            "type": "Input",
+            "label": "Animaux acceptés?",
+            "placeholder": "O/N",
+            "required": true
+          }
+        ]
+      },
+      {
+        "id": "20",
+        "label": "Campings",
+        "channel": "campings",
+        "fields": [
+          {
+            "key": "TypeHebergement",
+            "type": "Input",
+            "label": "Type dhébergement",
+            "placeholder": "Appartement / Chalet / Chambre / Château / Ferme",
+            "required": true
+          },
+          {
+            "key": "Capacite",
+            "type": "Input",
+            "label": "Capacité",
+            "placeholder": "Nombre de personnes",
+            "required": true
+          },
+          {
+            "key": "Chambre",
+            "type": "Input",
+            "label": "Nombre de chambres",
+            "placeholder": "nombre de chambre",
+            "required": true
+          },
+          {
+            "key": "HoraireArrivee",
+            "type": "Input",
+            "label": "Horaire d'arrivée",
+            "placeholder": "Horaire d'arrivée",
+            "required": true
+          },
+          {
+            "key": "HoraireDepart",
+            "type": "Input",
+            "label": "Horaire de départ",
+            "placeholder": "Horaire de départ",
+            "required": true
+          },
+          {
+            "key": "Piscine",
+            "type": "Input",
+            "label": "Location avec piscine",
+            "placeholder": "O/N",
+            "required": true
+          },
+          {
+            "key": "Animaux",
+            "type": "Input",
+            "label": "Animaux acceptés?",
+            "placeholder": "O/N",
+            "required": true
+          }
+        ]
+      },
+      {
+        "id": "21",
+        "label": "Hébergements insolites",
+        "channel": "hebergements_insolites",
+        "fields": [
+          {
+            "key": "TypeHebergement",
+            "type": "Input",
+            "label": "Type dhébergement",
+            "placeholder": "Appartement / Chalet / Chambre / Château / Ferme",
+            "required": true
+          },
+          {
+            "key": "Capacite",
+            "type": "Input",
+            "label": "Capacité",
+            "placeholder": "Nombre de personnes",
+            "required": true
+          },
+          {
+            "key": "Chambre",
+            "type": "Input",
+            "label": "Nombre de chambres",
+            "placeholder": "nombre de chambre",
+            "required": true
+          },
+          {
+            "key": "HoraireArrivee",
+            "type": "Input",
+            "label": "Horaire d'arrivée",
+            "placeholder": "Horaire d'arrivée",
+            "required": true
+          },
+          {
+            "key": "HoraireDepart",
+            "type": "Input",
+            "label": "Horaire de départ",
+            "placeholder": "Horaire de départ",
+            "required": true
+          },
+          {
+            "key": "Piscine",
+            "type": "Input",
+            "label": "Location avec piscine",
+            "placeholder": "O/N",
+            "required": true
+          },
+          {
+            "key": "Animaux",
+            "type": "Input",
+            "label": "Animaux acceptés?",
+            "placeholder": "O/N",
+            "required": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "22",
+    "id_parent_class": "12",
+    "label": "MULTIMEDIA",
+    "channel": "_multimedia_",
+    "subcategories": [
+      {
+        "id": "23",
+        "label": "Informatique",
+        "channel": "informatique",
+        "fields": [
+          {
+            "key": "Etat",
+            "type": "Input",
+            "label": "Type Etat",
+            "placeholder": "Etat neuf / Très bon état /  bon état / Etat satisfaisant / Pour pièce",
+            "required": true
+          },
+          {
+            "key": "Titre",
+            "type": "Input",
+            "label": "Titre de l'annonce",
+            "placeholder": "Titre de l'annonce",
+            "required": true
+          },
+          {
+            "key": "Description",
+            "type": "Input",
+            "label": "Description  de l'annonce",
+            "placeholder": "Description de l'annonce",
+            "required": true
+          }
+        ]
+      },
+      {
+        "id": "24",
+        "label": "Consoles & Jeux vidéo",
+        "channel": "consoles_jeux_video",
+        "fields": [
+          {
+            "key": "Type",
+            "type": "Input",
+            "label": "Type",
+            "placeholder": "Console / Jeux /  Accessoires",
+            "required": true
+          },
+          {
+            "key": "Etat",
+            "type": "Input",
+            "label": "Type Etat",
+            "placeholder": "Etat neuf / Très bon état /  bon état / Etat satisfaisant / Pour pièce",
+            "required": true
+          },
+          {
+            "key": "Marque",
+            "type": "Input",
+            "label": "Marque",
+            "placeholder": "",
+            "required": true
+          },
+          {
+            "key": "Modele",
+            "type": "Input",
+            "label": "Modèle",
+            "placeholder": "",
+            "required": true
+          },
+          {
+            "key": "Etat",
+            "type": "Input",
+            "label": "Type Etat",
+            "placeholder": "Etat neuf / Très bon état /  bon état / Etat satisfaisant / Pour pièce",
+            "required": true
+          }
+        ]
+      },
+      {
+        "id": "25",
+        "label": "Image & Son",
+        "channel": "image_son",
+        "fields": [
+          {
+            "key": "Etat",
+            "type": "Input",
+            "label": "Type Etat",
+            "placeholder": "Etat neuf / Très bon état /  bon état / Etat satisfaisant / Pour pièce",
+            "required": true
+          },
+          {
+            "key": "Titre",
+            "type": "Input",
+            "label": "Titre de l'annonce",
+            "placeholder": "Titre de l'annonce",
+            "required": true
+          },
+          {
+            "key": "Description",
+            "type": "Input",
+            "label": "Description  de l'annonce",
+            "placeholder": "Description de l'annonce",
+            "required": true
+          }
+        ]
+      },
+      {
+        "id": "26",
+        "label": "Téléphonie",
+        "channel": "telephonie",
+        "fields": [
+          {
+            "key": "Marque",
+            "type": "Input",
+            "label": "Marque",
+            "placeholder": "",
+            "required": true
+          },
+          {
+            "key": "Modele",
+            "type": "Input",
+            "label": "Modèle",
+            "placeholder": "",
+            "required": true
+          },
+          {
+            "key": "Couleur",
+            "type": "Input",
+            "label": "Couleur",
+            "placeholder": "Couleur",
+            "required": true
+          },
+          {
+            "key": "Stockage",
+            "type": "Input",
+            "label": "Capacité de stockage",
+            "placeholder": "Go",
+            "required": true
+          },
+          {
+            "key": "Etat",
+            "type": "Input",
+            "label": "Type Etat",
+            "placeholder": "Etat neuf / Très bon état /  bon état / Etat satisfaisant / Pour pièce",
+            "required": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "27",
+    "label": "MAISON",
+    "channel": "_maison_",
+    "subcategories": [
+      {
+        "id": "28",
+        "id_parent_class": "27",
+        "label": "Ameublement",
+        "channel": "ameublement",
+        "fields": [
+          {
+            "key": "Type",
+            "type": "Input",
+            "label": "Type",
+            "placeholder": "",
+            "required": true
+          },
+          {
+            "key": "Matiere",
+            "type": "Input",
+            "label": "Matière",
+            "placeholder": "",
+            "required": true
+          },
+          {
+            "key": "Couleur",
+            "type": "Input",
+            "label": "Couleur",
+            "placeholder": "Couleur",
+            "required": true
+          },
+          {
+            "key": "Etat",
+            "type": "Input",
+            "label": "Type Etat",
+            "placeholder": "Etat neuf / Très bon état /  bon état / Etat satisfaisant / Pour pièce",
+            "required": true
+          }
+        ]
+      },
+      {
+        "id": "29",
+        "id_parent_class": "27",
+        "label": "Electroménager",
+        "channel": "electromenager",
+        "fields": [
+          {
+            "key": "Etat",
+            "type": "Input",
+            "label": "Type Etat",
+            "placeholder": "Etat neuf / Très bon état /  bon état / Etat satisfaisant / Pour pièce",
+            "required": true
+          },
+          {
+            "key": "Titre",
+            "type": "Input",
+            "label": "Titre de l'annonce",
+            "placeholder": "Titre de l'annonce",
+            "required": true
+          },
+          {
+            "key": "Description",
+            "type": "Input",
+            "label": "Description  de l'annonce",
+            "placeholder": "Description de l'annonce",
+            "required": true
+          }
+        ]
+      },
+      {
+        "id": "30",
+        "id_parent_class": "27",
+        "label": "Arts de la table",
+        "channel": "arts_de_la_table",
+        "fields": [
+          {
+            "key": "Etat",
+            "type": "Input",
+            "label": "Type Etat",
+            "placeholder": "Etat neuf / Très bon état /  bon état / Etat satisfaisant / Pour pièce",
+            "required": true
+          },
+          {
+            "key": "Titre",
+            "type": "Input",
+            "label": "Titre de l'annonce",
+            "placeholder": "Titre de l'annonce",
+            "required": true
+          },
+          {
+            "key": "Description",
+            "type": "Input",
+            "label": "Description  de l'annonce",
+            "placeholder": "Description de l'annonce",
+            "required": true
+          }
+        ]
+      },
+      {
+        "id": "31",
+        "id_parent_class": "27",
+        "label": "Décoration",
+        "channel": "decoration",
+        "fields": [
+          {
+            "key": "Etat",
+            "type": "Input",
+            "label": "Type Etat",
+            "placeholder": "Etat neuf / Très bon état /  bon état / Etat satisfaisant / Pour pièce",
+            "required": true
+          },
+          {
+            "key": "Titre",
+            "type": "Input",
+            "label": "Titre de l'annonce",
+            "placeholder": "Titre de l'annonce",
+            "required": true
+          },
+          {
+            "key": "Description",
+            "type": "Input",
+            "label": "Description  de l'annonce",
+            "placeholder": "Description de l'annonce",
+            "required": true
+          }
+        ]
+      },
+      {
+        "id": "32",
+        "id_parent_class": "27",
+        "label": "Linge de maison",
+        "channel": "linge_de_maison",
+        "fields": [
+          {
+            "key": "Etat",
+            "type": "Input",
+            "label": "Type Etat",
+            "placeholder": "Etat neuf / Très bon état /  bon état / Etat satisfaisant / Pour pièce",
+            "required": true
+          },
+          {
+            "key": "Titre",
+            "type": "Input",
+            "label": "Titre de l'annonce",
+            "placeholder": "Titre de l'annonce",
+            "required": true
+          },
+          {
+            "key": "Description",
+            "type": "Input",
+            "label": "Description  de l'annonce",
+            "placeholder": "Description de l'annonce",
+            "required": true
+          }
+        ]
+      },
+      {
+        "id": "33",
+        "id_parent_class": "27",
+        "label": "Bricolage",
+        "channel": "bricolage",
+        "fields": [
+          {
+            "key": "Etat",
+            "type": "Input",
+            "label": "Type Etat",
+            "placeholder": "Etat neuf / Très bon état /  bon état / Etat satisfaisant / Pour pièce",
+            "required": true
+          },
+          {
+            "key": "Titre",
+            "type": "Input",
+            "label": "Titre de l'annonce",
+            "placeholder": "Titre de l'annonce",
+            "required": true
+          },
+          {
+            "key": "Description",
+            "type": "Input",
+            "label": "Description  de l'annonce",
+            "placeholder": "Description de l'annonce",
+            "required": true
+          }
+        ]
+      },
+      {
+        "id": "34",
+        "id_parent_class": "27",
+        "label": "Jardinage",
+        "channel": "jardinage",
+        "fields": [
+          {
+            "key": "Etat",
+            "type": "Input",
+            "label": "Type Etat",
+            "placeholder": "Etat neuf / Très bon état /  bon état / Etat satisfaisant / Pour pièce",
+            "required": true
+          },
+          {
+            "key": "Titre",
+            "type": "Input",
+            "label": "Titre de l'annonce",
+            "placeholder": "Titre de l'annonce",
+            "required": true
+          },
+          {
+            "key": "Description",
+            "type": "Input",
+            "label": "Description  de l'annonce",
+            "placeholder": "Description de l'annonce",
+            "required": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "35",
+    "label": "MODE",
+    "channel": "mode",
+    "subcategories": [
+      {
+        "id": "36",
+        "id_parent_class": "35",
+        "label": "Vêtements",
+        "channel": "vetements",
+        "fields": [
+          {
+            "key": "Univers",
+            "type": "Input",
+            "label": "Univers",
+            "placeholder": "Femme / Maternité /  Homme / Enfant",
+            "required": true
+          },
+          {
+            "key": "Taille",
+            "type": "Input",
+            "label": "Taille",
+            "placeholder": "Taille",
+            "required": true
+          },
+          {
+            "key": "Type",
+            "type": "Input",
+            "label": "Type de vêtement",
+            "placeholder": "",
+            "required": true
+          },
+          {
+            "key": "Marque",
+            "type": "Input",
+            "label": "Marque",
+            "placeholder": "",
+            "required": true
+          },
+          {
+            "key": "Couleur",
+            "type": "Input",
+            "label": "Couleur",
+            "placeholder": "",
+            "required": true
+          },
+          {
+            "key": "Etat",
+            "type": "Input",
+            "label": "Type Etat",
+            "placeholder": "Etat neuf / Très bon état /  bon état / Etat satisfaisant / Pour pièce",
+            "required": true
+          }
+        ]
+      },
+      {
+        "id": "37",
+        "id_parent_class": "35",
+        "label": "Chaussures",
+        "channel": "chaussures",
+        "fields": [
+          {
+            "key": "Univers",
+            "type": "Input",
+            "label": "Univers",
+            "placeholder": "",
+            "required": true
+          },
+          {
+            "key": "Type",
+            "type": "Input",
+            "label": "Type de chaussures",
+            "placeholder": "Taille",
+            "required": true
+          },
+          {
+            "key": "Pointure",
+            "type": "Input",
+            "label": "Pointure",
+            "placeholder": "",
+            "required": true
+          },
+          {
+            "key": "Marque",
+            "type": "Input",
+            "label": "Marque",
+            "placeholder": "",
+            "required": true
+          },
+          {
+            "key": "Couleur",
+            "type": "Input",
+            "label": "Couleur",
+            "placeholder": "",
+            "required": true
+          },
+          {
+            "key": "Etat",
+            "type": "Input",
+            "label": "Type Etat",
+            "placeholder": "Etat neuf / Très bon état /  bon état / Etat satisfaisant / Pour pièce",
+            "required": true
+          }
+        ]
+      },
+      {
+        "id": "38",
+        "id_parent_class": "35",
+        "label": "Accessoires & Bagagerie",
+        "channel": "accessoires_bagagerie",
+        "fields": [
+          {
+            "key": "Univers",
+            "type": "Input",
+            "label": "Univers",
+            "placeholder": "",
+            "required": true
+          },
+          {
+            "key": "Marque",
+            "type": "Input",
+            "label": "Marque",
+            "placeholder": "",
+            "required": true
+          },
+          {
+            "key": "Matiere",
+            "type": "Input",
+            "label": "Matière",
+            "placeholder": "",
+            "required": true
+          },
+          {
+            "key": "Couleur",
+            "type": "Input",
+            "label": "Couleur",
+            "placeholder": "",
+            "required": true
+          },
+          {
+            "key": "Etat",
+            "type": "Input",
+            "label": "Type Etat",
+            "placeholder": "Etat neuf / Très bon état /  bon état / Etat satisfaisant / Pour pièce",
+            "required": true
+          }
+        ]
+      },
+      {
+        "id": "39",
+        "id_parent_class": "35",
+        "label": "Montres & Bijoux",
+        "channel": "montres_bijoux",
+        "fields": [
+          {
+            "key": "Univers",
+            "type": "Input",
+            "label": "Univers",
+            "placeholder": "",
+            "required": true
+          },
+          {
+            "key": "Type",
+            "type": "Input",
+            "label": "Type",
+            "placeholder": "",
+            "required": true
+          },
+          {
+            "key": "Marque",
+            "type": "Input",
+            "label": "Marque",
+            "placeholder": "",
+            "required": true
+          },
+          {
+            "key": "Etat",
+            "type": "Input",
+            "label": "Type Etat",
+            "placeholder": "Etat neuf / Très bon état /  bon état / Etat satisfaisant / Pour pièce",
+            "required": true
+          }
+        ]
+      },
+      {
+        "id": "40",
+        "id_parent_class": "35",
+        "label": "Equipement bébé",
+        "channel": "equipement_bebe",
+        "fields": [
+          {
+            "key": "Type",
+            "type": "Input",
+            "label": "Type",
+            "placeholder": "",
+            "required": true
+          },
+          {
+            "key": "Marque",
+            "type": "Input",
+            "label": "Marque",
+            "placeholder": "",
+            "required": true
+          },
+          {
+            "key": "Couleur",
+            "type": "Input",
+            "label": "Couleur",
+            "placeholder": "",
+            "required": true
+          },
+          {
+            "key": "Etat",
+            "type": "Input",
+            "label": "Type Etat",
+            "placeholder": "Etat neuf / Très bon état /  bon état / Etat satisfaisant / Pour pièce",
+            "required": true
+          }
+        ]
+      },
+      {
+        "id": "41",
+        "id_parent_class": "35",
+        "label": "Vêtements bébé",
+        "channel": "vetements_bebe"
+      }
+    ]
+  },
+  {
+    "id": "42",
+    "label": "LOISIRS",
+    "channel": "_loisirs_",
+    "subcategories": [
+      {
+        "id": "43",
+        "id_parent_class": "42",
+        "label": "DVD / Films",
+        "channel": "dvd_films",
+        "fields": [
+          {
+            "key": "Etat",
+            "type": "Input",
+            "label": "Type Etat",
+            "placeholder": "Etat neuf / Très bon état /  bon état / Etat satisfaisant / Pour pièce",
+            "required": true
+          },
+          {
+            "key": "Titre",
+            "type": "Input",
+            "label": "Titre de l'annonce",
+            "placeholder": "Titre de l'annonce",
+            "required": true
+          },
+          {
+            "key": "Description",
+            "type": "Input",
+            "label": "Description  de l'annonce",
+            "placeholder": "Description de l'annonce",
+            "required": true
+          }
+        ]
+      },
+      {
+        "id": "44",
+        "id_parent_class": "42",
+        "label": "CD / Musique",
+        "channel": "cd_musique",
+        "fields": [
+          {
+            "key": "Etat",
+            "type": "Input",
+            "label": "Type Etat",
+            "placeholder": "Etat neuf / Très bon état /  bon état / Etat satisfaisant / Pour pièce",
+            "required": true
+          },
+          {
+            "key": "Titre",
+            "type": "Input",
+            "label": "Titre de l'annonce",
+            "placeholder": "Titre de l'annonce",
+            "required": true
+          },
+          {
+            "key": "Description",
+            "type": "Input",
+            "label": "Description  de l'annonce",
+            "placeholder": "Description de l'annonce",
+            "required": true
+          }
+        ]
+      },
+      {
+        "id": "45",
+        "id_parent_class": "42",
+        "label": "Livres",
+        "channel": "livres",
+        "fields": [
+          {
+            "key": "Etat",
+            "type": "Input",
+            "label": "Etat",
+            "placeholder": "Etat neuf / Très bon état /  bon état / Etat satisfaisant / Pour pièce",
+            "required": true
+          },
+          {
+            "key": "Titre",
+            "type": "Input",
+            "label": "Titre de l'annonce",
+            "placeholder": "Titre de l'annonce",
+            "required": true
+          },
+          {
+            "key": "Description",
+            "type": "Input",
+            "label": "Description  de l'annonce",
+            "placeholder": "Description de l'annonce",
+            "required": true
+          }
+        ]
+      },
+      {
+        "id": "46",
+        "id_parent_class": "42",
+        "label": "Animaux",
+        "channel": "animaux",
+        "fields": [
+          {
+            "key": "Titre",
+            "type": "Input",
+            "label": "Titre de l'annonce",
+            "placeholder": "Titre de l'annonce",
+            "required": true
+          },
+          {
+            "key": "Type",
+            "type": "Input",
+            "label": "Type de l'offre",
+            "placeholder": "Chien & Chats / Autres animaux / Accessoires",
+            "required": true
+          },
+          {
+            "key": "Description",
+            "type": "Input",
+            "label": "Description  de l'annonce",
+            "placeholder": "Description de l'annonce",
+            "required": true
+          },
+          {
+            "key": "Prix",
+            "type": "Input",
+            "label": "Prix",
+            "placeholder": "Prix",
+            "required": true
+          }
+        ]
+      },
+      {
+        "id": "47",
+        "id_parent_class": "42",
+        "label": "Vélos",
+        "channel": "velos",
+        "fields": [
+          {
+            "key": "Type",
+            "type": "Input",
+            "label": "Type",
+            "placeholder": "",
+            "required": true
+          },
+          {
+            "key": "Etat",
+            "type": "Input",
+            "label": "Etat",
+            "placeholder": "Etat neuf / Très bon état /  bon état / Etat satisfaisant / Pour pièce",
+            "required": true
+          }
+        ]
+      },
+      {
+        "id": "48",
+        "id_parent_class": "42",
+        "label": "Sports & Hobbies",
+        "channel": "sports_hobbies",
+        "fields": [
+          {
+            "key": "Etat",
+            "type": "Input",
+            "label": "Etat",
+            "placeholder": "Etat neuf / Très bon état /  bon état / Etat satisfaisant / Pour pièce",
+            "required": true
+          },
+          {
+            "key": "Titre",
+            "type": "Input",
+            "label": "Titre de l'annonce",
+            "placeholder": "Titre de l'annonce",
+            "required": true
+          },
+          {
+            "key": "Description",
+            "type": "Input",
+            "label": "Description  de l'annonce",
+            "placeholder": "Description de l'annonce",
+            "required": true
+          }
+        ]
+      },
+      {
+        "id": "49",
+        "id_parent_class": "42",
+        "label": "Instruments de musique",
+        "channel": "instruments_de_musique",
+        "fields": [
+          {
+            "key": "Etat",
+            "type": "Input",
+            "label": "Etat",
+            "placeholder": "Etat neuf / Très bon état /  bon état / Etat satisfaisant / Pour pièce",
+            "required": true
+          },
+          {
+            "key": "Titre",
+            "type": "Input",
+            "label": "Titre de l'annonce",
+            "placeholder": "Titre de l'annonce",
+            "required": true
+          },
+          {
+            "key": "Description",
+            "type": "Input",
+            "label": "Description  de l'annonce",
+            "placeholder": "Description de l'annonce",
+            "required": true
+          }
+        ]
+      },
+      {
+        "id": "50",
+        "id_parent_class": "42",
+        "label": "Collection",
+        "channel": "collection",
+        "fields": [
+          {
+            "key": "Etat",
+            "type": "Input",
+            "label": "Etat",
+            "placeholder": "Etat neuf / Très bon état /  bon état / Etat satisfaisant / Pour pièce",
+            "required": true
+          },
+          {
+            "key": "Titre",
+            "type": "Input",
+            "label": "Titre de l'annonce",
+            "placeholder": "Titre de l'annonce",
+            "required": true
+          },
+          {
+            "key": "Description",
+            "type": "Input",
+            "label": "Description  de l'annonce",
+            "placeholder": "Description de l'annonce",
+            "required": true
+          }
+        ]
+      },
+      {
+        "id": "51",
+        "id_parent_class": "42",
+        "label": "Jeux & Jouets",
+        "channel": "jeux_jouets",
+        "fields": [
+          {
+            "key": "Etat",
+            "type": "Input",
+            "label": "Etat",
+            "placeholder": "Etat neuf / Très bon état /  bon état / Etat satisfaisant / Pour pièce",
+            "required": true
+          },
+          {
+            "key": "Titre",
+            "type": "Input",
+            "label": "Titre de l'annonce",
+            "placeholder": "Titre de l'annonce",
+            "required": true
+          },
+          {
+            "key": "Description",
+            "type": "Input",
+            "label": "Description  de l'annonce",
+            "placeholder": "Description de l'annonce",
+            "required": true
+          }
+        ]
+      },
+      {
+        "id": "52",
+        "id_parent_class": "42",
+        "label": "Vins & Gastronomie",
+        "channel": "vins_gastronomie",
+        "fields": [
+          {
+            "key": "Etat",
+            "type": "Input",
+            "label": "Etat",
+            "placeholder": "Etat neuf / Très bon état /  bon état / Etat satisfaisant / Pour pièce",
+            "required": true
+          },
+          {
+            "key": "Titre",
+            "type": "Input",
+            "label": "Titre de l'annonce",
+            "placeholder": "Titre de l'annonce",
+            "required": true
+          },
+          {
+            "key": "Description",
+            "type": "Input",
+            "label": "Description  de l'annonce",
+            "placeholder": "Description de l'annonce",
+            "required": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "53",
+    "label": "MATERIEL PROFESSIONNEL",
+    "channel": "_materiel_professionnel_",
+    "subcategories": [
+      {
+        "id": "54",
+        "id_parent_class": "53",
+        "label": "Matériel Agricole",
+        "channel": "materiel_agricole",
+        "fields": [
+          {
+            "key": "Titre",
+            "type": "Input",
+            "label": "Titre de l'annonce",
+            "placeholder": "Titre de l'annonce",
+            "required": true
+          },
+          {
+            "key": "Description",
+            "type": "Input",
+            "label": "Description  de l'annonce",
+            "placeholder": "Description de l'annonce",
+            "required": true
+          }
+        ]
+      },
+      {
+        "id": "55",
+        "id_parent_class": "53",
+        "label": "Transport - Manutention",
+        "channel": "transport_manutention",
+        "fields": [
+          {
+            "key": "Titre",
+            "type": "Input",
+            "label": "Titre de l'annonce",
+            "placeholder": "Titre de l'annonce",
+            "required": true
+          },
+          {
+            "key": "Description",
+            "type": "Input",
+            "label": "Description  de l'annonce",
+            "placeholder": "Description de l'annonce",
+            "required": true
+          }
+        ]
+      },
+      {
+        "id": "56",
+        "id_parent_class": "53",
+        "label": "BTP - Chantier Gros-oeuvre",
+        "channel": "btp_chantier_gros_oeuvre",
+        "fields": [
+          {
+            "key": "Titre",
+            "type": "Input",
+            "label": "Titre de l'annonce",
+            "placeholder": "Titre de l'annonce",
+            "required": true
+          },
+          {
+            "key": "Description",
+            "type": "Input",
+            "label": "Description  de l'annonce",
+            "placeholder": "Description de l'annonce",
+            "required": true
+          }
+        ]
+      },
+      {
+        "id": "57",
+        "id_parent_class": "53",
+        "label": "Outillage - Matériaux 2nd-oeuvre",
+        "channel": "outillage_materiaux_2nd_oeuvre",
+        "fields": [
+          {
+            "key": "Titre",
+            "type": "Input",
+            "label": "Titre de l'annonce",
+            "placeholder": "Titre de l'annonce",
+            "required": true
+          },
+          {
+            "key": "Description",
+            "type": "Input",
+            "label": "Description  de l'annonce",
+            "placeholder": "Description de l'annonce",
+            "required": true
+          }
+        ]
+      },
+      {
+        "id": "58",
+        "id_parent_class": "53",
+        "label": "Équipements Industriels",
+        "channel": "equipements_industriels",
+        "fields": [
+          {
+            "key": "Titre",
+            "type": "Input",
+            "label": "Titre de l'annonce",
+            "placeholder": "Titre de l'annonce",
+            "required": true
+          },
+          {
+            "key": "Description",
+            "type": "Input",
+            "label": "Description  de l'annonce",
+            "placeholder": "Description de l'annonce",
+            "required": true
+          }
+        ]
+      },
+      {
+        "id": "59",
+        "id_parent_class": "53",
+        "label": "Restauration - Hôtellerie",
+        "channel": "restauration_hotellerie",
+        "fields": [
+          {
+            "key": "Titre",
+            "type": "Input",
+            "label": "Titre de l'annonce",
+            "placeholder": "Titre de l'annonce",
+            "required": true
+          },
+          {
+            "key": "Description",
+            "type": "Input",
+            "label": "Description  de l'annonce",
+            "placeholder": "Description de l'annonce",
+            "required": true
+          }
+        ]
+      },
+      {
+        "id": "60",
+        "id_parent_class": "53",
+        "label": "Fournitures de Bureau",
+        "channel": "fournitures_de_bureau",
+        "fields": [
+          {
+            "key": "Titre",
+            "type": "Input",
+            "label": "Titre de l'annonce",
+            "placeholder": "Titre de l'annonce",
+            "required": true
+          },
+          {
+            "key": "Description",
+            "type": "Input",
+            "label": "Description  de l'annonce",
+            "placeholder": "Description de l'annonce",
+            "required": true
+          }
+        ]
+      },
+      {
+        "id": "61",
+        "id_parent_class": "53",
+        "label": "Commerces & Marchés",
+        "channel": "commerces_marches",
+        "fields": [
+          {
+            "key": "Titre",
+            "type": "Input",
+            "label": "Titre de l'annonce",
+            "placeholder": "Titre de l'annonce",
+            "required": true
+          },
+          {
+            "key": "Description",
+            "type": "Input",
+            "label": "Description  de l'annonce",
+            "placeholder": "Description de l'annonce",
+            "required": true
+          }
+        ]
+      },
+      {
+        "id": "62",
+        "id_parent_class": "53",
+        "label": "Matériel Médical",
+        "channel": "materiel_medical",
+        "fields": [
+          {
+            "key": "Titre",
+            "type": "Input",
+            "label": "Titre de l'annonce",
+            "placeholder": "Titre de l'annonce",
+            "required": true
+          },
+          {
+            "key": "Description",
+            "type": "Input",
+            "label": "Description  de l'annonce",
+            "placeholder": "Description de l'annonce",
+            "required": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63",
+    "label": "SERVICES",
+    "channel": "_services_",
+    "subcategories": [
+      {
+        "id": "64",
+        "id_parent_class": "63",
+        "label": "Prestations de services",
+        "channel": "prestations_de_services",
+        "fields": [
+          {
+            "key": "Titre",
+            "type": "Input",
+            "label": "Titre de l'annonce",
+            "placeholder": "Titre de l'annonce",
+            "required": true
+          },
+          {
+            "key": "Description",
+            "type": "Input",
+            "label": "Description  de l'annonce",
+            "placeholder": "Description de l'annonce",
+            "required": true
+          }
+        ]
+      },
+      {
+        "id": "65",
+        "id_parent_class": "63",
+        "label": "Billetterie",
+        "channel": "billetterie",
+        "fields": [
+          {
+            "key": "Titre",
+            "type": "Input",
+            "label": "Titre de l'annonce",
+            "placeholder": "Titre de l'annonce",
+            "required": true
+          },
+          {
+            "key": "Description",
+            "type": "Input",
+            "label": "Description  de l'annonce",
+            "placeholder": "Description de l'annonce",
+            "required": true
+          }
+        ]
+      },
+      {
+        "id": "66",
+        "id_parent_class": "63",
+        "label": "Evénements",
+        "channel": "evenements",
+        "fields": [
+          {
+            "key": "Titre",
+            "type": "Input",
+            "label": "Titre de l'annonce",
+            "placeholder": "Titre de l'annonce",
+            "required": true
+          },
+          {
+            "key": "Description",
+            "type": "Input",
+            "label": "Description  de l'annonce",
+            "placeholder": "Description de l'annonce",
+            "required": true
+          }
+        ]
+      },
+      {
+        "id": "67",
+        "id_parent_class": "63",
+        "label": "Cours particuliers",
+        "channel": "cours_particuliers",
+        "fields": [
+          {
+            "key": "Titre",
+            "type": "Input",
+            "label": "Titre de l'annonce",
+            "placeholder": "Titre de l'annonce",
+            "required": true
+          },
+          {
+            "key": "Description",
+            "type": "Input",
+            "label": "Description  de l'annonce",
+            "placeholder": "Description de l'annonce",
+            "required": true
+          }
+        ]
+      },
+      {
+        "id": "68",
+        "id_parent_class": "63",
+        "label": "Covoiturage",
+        "channel": "covoiturage",
+        "fields": [
+          {
+            "key": "Titre",
+            "type": "Input",
+            "label": "Titre de l'annonce",
+            "placeholder": "Titre de l'annonce",
+            "required": true
+          },
+          {
+            "key": "Description",
+            "type": "Input",
+            "label": "Description  de l'annonce",
+            "placeholder": "Description de l'annonce",
+            "required": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "69",
+    "label": "DIVERS",
+    "channel": "divers",
+    "subcategories": [
+      {
+        "id": "70",
+        "id_parent_class": "69",
+        "label": "Autres",
+        "channel": "autres",
+        "fields": [
+          {
+            "key": "titre",
+            "type": "Input",
+            "label": "Titre de l'annonce",
+            "placeholder": "Titre de l'annonce",
+            "required": true
+          },
+          {
+            "key": "experiences",
+            "type": "Input",
+            "label": "Description de l'annonce",
+            "placeholder": "Description de l'annonce",
+            "required": true
+          }
+        ]
+      }
+    ]
+  }
+]
