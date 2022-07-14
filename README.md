@@ -6,6 +6,30 @@ A new Flutter application.
 
 This application contains login screen,
 home page, consultation of advertisements, ads's creations (forms, geolocation, contact).
+I coded the forms, buttons and menus in French but you can quickly translate to your language.
+
+
+form generated using json files in the database
+<table>
+  <tr>
+    <td><img src="https://github.com/JerielJosephrose/flutter-offers-app/blob/master/images/img_1.png" alt="Success Status" width="200"></td> 
+  </tr>
+</table>
+
+example of a form and geolocation
+<table>
+  <tr>
+    <td><img src="https://github.com/JerielJosephrose/flutter-offers-app/blob/master/images/img_2.png" alt="Success Status" width="200"></td> 
+        <td><img src="https://github.com/JerielJosephrose/flutter-offers-app/blob/master/images/img_3.png" alt="Success Status" width="200"></td> 
+  </tr>
+</table>
+
+Class Diagram
+<table>
+  <tr>
+    <td><img src="https://github.com/JerielJosephrose/flutter-offers-app/blob/master/images/img.png" alt="Success Status" width="500"></td> 
+  </tr>
+</table>
 
 
 A few resources to get you started if this is your first Flutter project:
