@@ -227,7 +227,7 @@ class _LoginState extends State<Login> {
     return RichText(
       textAlign: TextAlign.center,
       text: TextSpan(
-          text: 'Opi A',
+          text: 'Flutter offers',
           style: GoogleFonts.portLligatSans(
             textStyle: Theme.of(context).textTheme.display1,
             fontSize: 30,

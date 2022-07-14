@@ -84,7 +84,7 @@ class MyAppState extends State<MyApp> {
       navigateAfterSeconds: openLoginPage(mobileNumber),
       //navigateAfterSeconds: new HomePage(),
       title: new Text(
-        'Bienvenue sur Opi annonces',
+        'Bienvenue sur Flutter offers',
         style: new TextStyle(
             fontWeight: FontWeight.bold,
             color: Color(0xff0b4e94),

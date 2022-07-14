@@ -67,7 +67,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text("Opi Annonces"),
+        title: Text("Flutter offers),
         backgroundColor: Color(0xff0b4e94),
         elevation: 0.0,
         brightness: Brightness.light,
