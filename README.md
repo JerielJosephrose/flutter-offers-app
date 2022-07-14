@@ -12,22 +12,22 @@ I coded the forms, buttons and menus in French but you can quickly translate to 
 form generated using json files in the database
 <table>
   <tr>
-    <td><img src="https://github.com/JerielJosephrose/flutter-offers-app/blob/master/images/img_1.png" alt="Success Status" width="200"></td> 
+    <td><img src="https://github.com/JerielJosephrose/flutter-offers-app/blob/master/images/screenshot/img_1.png" alt="Success Status" width="300"></td> 
   </tr>
 </table>
 
 example of a form and geolocation
 <table>
   <tr>
-    <td><img src="https://github.com/JerielJosephrose/flutter-offers-app/blob/master/images/img_2.png" alt="Success Status" width="200"></td> 
-        <td><img src="https://github.com/JerielJosephrose/flutter-offers-app/blob/master/images/img_3.png" alt="Success Status" width="200"></td> 
+    <td><img src="https://github.com/JerielJosephrose/flutter-offers-app/blob/master/images/screenshot/img_2.png" alt="Success Status" width="300"></td> 
+        <td><img src="https://github.com/JerielJosephrose/flutter-offers-app/blob/master/images/screenshot/img_3.png" alt="Success Status" width="300"></td> 
   </tr>
 </table>
 
 Class Diagram
 <table>
   <tr>
-    <td><img src="https://github.com/JerielJosephrose/flutter-offers-app/blob/master/images/img.png" alt="Success Status" width="500"></td> 
+    <td><img src="https://github.com/JerielJosephrose/flutter-offers-app/blob/master/images/screenshot/img.png" alt="Success Status" width="500"></td> 
   </tr>
 </table>
 
